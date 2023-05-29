@@ -13,6 +13,14 @@ String nome = 'Maria';    // Textos
 bool ligado = true;       // Valores booleanos (verdadeiro/falso)
 ```
 
+## Variáveis dinâmicas
+
+```dart
+var nome = "Leo";         // Não permite trocar o tipo após atribuição
+dynamic din = "Curso";    // Permite trocar o tipo da variável
+num numero = 1.4;         // número inteiro ou real
+```
+
 ## Escrevendo no terminal o conteúdo de uma variável
 
 **Interpolação**
