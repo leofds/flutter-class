@@ -5,3 +5,4 @@
 - [3 variáveis](https://github.com/leofds/flutter-class/blob/master/dart/basic/variaveis.md)
 - [4 constantes](https://github.com/leofds/flutter-class/blob/master/dart/basic/constantes.md)
 - [5 operadores ariméticos](https://github.com/leofds/flutter-class/blob/master/dart/basic/operadores-aritmeticos.md)
+- [6 operadores relacionais](https://github.com/leofds/flutter-class/blob/master/dart/basic/operadores-relacionais.md)
