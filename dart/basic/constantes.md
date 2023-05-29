@@ -1,6 +1,6 @@
 # Constantes
 
-Constantes armazenam um valor que não pode ser alterado.
+Constantes armazenam um valor que não pode ser alterado durante a execução do programa.
 
 **Const** valor definido em tempo de compilação
 
