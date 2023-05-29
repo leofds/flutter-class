@@ -7,3 +7,10 @@ void main() {
   print('Olá mundo');
 }
 ```
+
+Utilize aspas duplas `"` ou simples `'`.
+
+```dart
+print('Com \"aspas simples\"');
+print("Com \'aspas duplas\'");
+```
