@@ -16,7 +16,7 @@ print("Com 'aspas duplas'");
 print('Com \'aspas simples\'');
 ```
 
-**Comentário**
+## Comentários
 
 Código comantado não será executado
 
