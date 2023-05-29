@@ -8,4 +8,5 @@
 - [Operadores relacionais](https://github.com/leofds/flutter-class/blob/master/dart/basic/operadores-relacionais.md)
 - [Teste Condicional (IF)](https://github.com/leofds/flutter-class/blob/master/dart/basic/teste-condicional.md)
 - [Operadores lógicos](https://github.com/leofds/flutter-class/blob/master/dart/basic/operadores-logicos.md)
-- [Operador ternário](https://github.com/leofds/flutter-class/tree/master/dart/basic)
+- [Operador ternário](https://github.com/leofds/flutter-class/blob/master/dart/basic/operador-ternario.md)
+
