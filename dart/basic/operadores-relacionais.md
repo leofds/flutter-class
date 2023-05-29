@@ -11,4 +11,6 @@ print(5 == 5); // 5 é IGUAL a 5
 print(5 != 5); // 5 é DIFERENTE de 5
 
 //Saída: false, true, true, false, true, false
+
+bool resultado = 1 < 9;
 ```
