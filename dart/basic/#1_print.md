@@ -11,6 +11,7 @@ void main() {
 Utilize aspas duplas `"` ou simples `'`.
 
 ```dart
-print('Com \"aspas simples\"');
-print("Com \'aspas duplas\'");
+print('Com "aspas simples"');
+print("Com 'aspas duplas'");
+print('Com \'aspas simples\'');
 ```
