@@ -21,7 +21,7 @@ Utilizamos o símbolo $ seguido do nome da variável dentro da String, ou seja, 
 
 ```dart
 int valor = 10;
-print('O valor é: $valor');   //O valor é: 10
+print('O valor é: $valor');   // Exibe: O valor é: 10
 ```
 
 **Concatenação (não recomendado)**
@@ -30,6 +30,15 @@ Utilizamos o símbolo + entre duas string para juntá-las (concatenar) em apenas
 
 ```dart
 String nome = 'Maria';
-print('O nome é: ' + nome);   //O nome é: Maria
+print('O nome é: ' + nome);   // Exibe: O nome é: Maria
 ```
 
+## Substituindo o conteúdo de uma variável
+
+Uma variável mantém o último valor que foi atribuído a ela.
+
+```dart
+int valor = 10;   				    // Inicializado com 10
+valor = 20;       				    // Atribuído 20 à variável
+print('O valor é: $valor');   // Exibe: O valor é: 20
+```
