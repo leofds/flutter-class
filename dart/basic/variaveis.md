@@ -46,7 +46,7 @@ print('O nome é: ' + nome);   // Exibe: O nome é: Maria
 Uma variável mantém o último valor que foi atribuído a ela.
 
 ```dart
-int valor = 10;   				    // Inicializado com 10
-valor = 20;       				    // Atribuído 20 à variável
+int valor = 10;               // Inicializado com 10
+valor = 20;                   // Atribuído 20 à variável
 print('O valor é: $valor');   // Exibe: O valor é: 20
 ```
