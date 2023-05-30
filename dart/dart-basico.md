@@ -11,5 +11,5 @@
 - [Operador ternário](https://github.com/leofds/flutter-class/blob/master/dart/basic/operador-ternario.md)
 - [Entrada de dados pela console](https://github.com/leofds/flutter-class/blob/master/dart/basic/entrada-console.md)
 - [Conversção de tipos](https://github.com/leofds/flutter-class/blob/master/dart/basic/conversao-tipos.md)
-- [Estrutura de seleção](https://github.com/leofds/flutter-class/blob/master/dart/basic/estrutura-selecao.md)
+- [Estrutura de seleção (SWITCH)](https://github.com/leofds/flutter-class/blob/master/dart/basic/estrutura-selecao.md)
 
