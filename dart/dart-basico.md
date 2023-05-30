@@ -9,4 +9,5 @@
 - [Teste Condicional (IF)](https://github.com/leofds/flutter-class/blob/master/dart/basic/teste-condicional.md)
 - [Operadores lógicos](https://github.com/leofds/flutter-class/blob/master/dart/basic/operadores-logicos.md)
 - [Operador ternário](https://github.com/leofds/flutter-class/blob/master/dart/basic/operador-ternario.md)
+- [Entrada de dados pela console](https://github.com/leofds/flutter-class/blob/master/dart/basic/entrada-console.md)
 
