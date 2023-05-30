@@ -14,4 +14,5 @@
 - [Estrutura de seleção (SWITCH)](https://github.com/leofds/flutter-class/blob/master/dart/basic/estrutura-selecao.md)
 - [Operadores de atribuição compostos](https://github.com/leofds/flutter-class/blob/master/dart/basic/opeadores-atribuicao-compostos.md)
 - [Incrementadores/decrementadores](https://github.com/leofds/flutter-class/blob/master/dart/basic/incrementadores-decrementadores.md)
+- [Laço de repetição enquanto (WHILE)](https://github.com/leofds/flutter-class/blob/master/dart/basic/repeticao-while.md)
 
