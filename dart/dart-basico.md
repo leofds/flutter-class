@@ -11,8 +11,9 @@
 - [Operador ternário](https://github.com/leofds/flutter-class/blob/master/dart/basic/operador-ternario.md)
 - [Entrada de dados pela console](https://github.com/leofds/flutter-class/blob/master/dart/basic/entrada-console.md)
 - [Conversção de tipos](https://github.com/leofds/flutter-class/blob/master/dart/basic/conversao-tipos.md)
-- [Estrutura de seleção (SWITCH)](https://github.com/leofds/flutter-class/blob/master/dart/basic/estrutura-selecao.md)
+- [Estrutura de Seleção (SWITCH)](https://github.com/leofds/flutter-class/blob/master/dart/basic/estrutura-selecao.md)
 - [Operadores de atribuição compostos](https://github.com/leofds/flutter-class/blob/master/dart/basic/opeadores-atribuicao-compostos.md)
 - [Incrementadores/decrementadores](https://github.com/leofds/flutter-class/blob/master/dart/basic/incrementadores-decrementadores.md)
-- [Laço de repetição enquanto (WHILE)](https://github.com/leofds/flutter-class/blob/master/dart/basic/repeticao-while.md)
+- [Laço de repetição Enquanto (WHILE)](https://github.com/leofds/flutter-class/blob/master/dart/basic/repeticao-while.md)
+- [Laço de repetição Faça Enquanto (DO WHILE)](https://github.com/leofds/flutter-class/blob/master/dart/basic/repeticao-do-while.md)
 
