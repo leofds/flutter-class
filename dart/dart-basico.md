@@ -18,3 +18,4 @@
 - [Laço de repetição Faça Enquanto (do while)](https://github.com/leofds/flutter-class/blob/master/dart/basic/repeticao-do-while.md)
 - [Laço de repetição Para (for)](https://github.com/leofds/flutter-class/blob/master/dart/basic/repeticao-for.md)
 - [Funções](https://github.com/leofds/flutter-class/blob/master/dart/basic/funcao.md)
+- [Função lambda](https://github.com/leofds/flutter-class/blob/master/dart/basic/funcao-lambda.md)
