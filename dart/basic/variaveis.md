@@ -1,4 +1,4 @@
-# Variáveies
+# Variáveis
 
 Variáveis são um espaço na memória para armazenar valores de acordo com o tipo da variável.
 
@@ -49,4 +49,16 @@ Uma variável mantém o último valor que foi atribuído a ela.
 int valor = 10;               // Inicializado com 10
 valor = 20;                   // Atribuído 20 à variável
 print('O valor é: $valor');   // Exibe: O valor é: 20
+```
+
+## Conversão double para int
+
+```dart
+double valor = 8.5;
+
+print(valor.toInt());     // trunca o valor decimal
+print(valor.truncate());  // trunca o valor decimal
+print(valor.round());     // arredonda para o mais próximo
+print(valor.ceil());      // arredodna pra cima
+print(valor.floor());     // arredonda para baixo
 ```
