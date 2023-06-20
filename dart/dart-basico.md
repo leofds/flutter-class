@@ -23,3 +23,4 @@
 - [Vetor/Array/Lista](https://github.com/leofds/flutter-class/blob/master/dart/basic/vetor.md)
 - [Matriz](https://github.com/leofds/flutter-class/blob/master/dart/basic/matriz.md)
 - [Null-safety](https://github.com/leofds/flutter-class/blob/master/dart/basic/null-safety.md)
+- [Operador teste de tipo](https://github.com/leofds/flutter-class/blob/master/dart/basic/operador-teste-tipo.md)
