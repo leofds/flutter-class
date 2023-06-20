@@ -1,4 +1,4 @@
-# Vetor (array)
+# Vetor/Array/Lista
 
 Vetores são Listas em Dart.
 
