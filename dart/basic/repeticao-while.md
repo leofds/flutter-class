@@ -1,4 +1,4 @@
-# Laço de repetição enquanto (WHILE)
+# Laço de repetição ENQUANTO (while)
 
 Enquanto a condição entre os parênteses () for true, executa o bloco de código entre as chaves { }.
 
