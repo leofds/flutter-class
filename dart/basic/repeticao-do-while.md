@@ -1,4 +1,4 @@
-# Laço de repetição FAÇA ENQUANTO (do while)
+# Laço de repetição Faça Enquanto (do while)
 
 Executa o bloco de código entre { } enquanto a condição entre () for true.
 
