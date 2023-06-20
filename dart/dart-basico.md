@@ -24,3 +24,4 @@
 - [Matriz](https://github.com/leofds/flutter-class/blob/master/dart/basic/matriz.md)
 - [Null-safety (Null assertion (!) e Nul-aware (??))](https://github.com/leofds/flutter-class/blob/master/dart/basic/null-safety.md)
 - [Operador teste de tipo](https://github.com/leofds/flutter-class/blob/master/dart/basic/operador-teste-tipo.md)
+- [Operadores bit a bit](https://github.com/leofds/flutter-class/blob/master/dart/basic/operadores-bit-a-bit.md)
