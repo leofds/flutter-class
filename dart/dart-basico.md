@@ -17,4 +17,4 @@
 - [Laço de repetição Enquanto (while)](https://github.com/leofds/flutter-class/blob/master/dart/basic/repeticao-while.md)
 - [Laço de repetição Faça Enquanto (do while)](https://github.com/leofds/flutter-class/blob/master/dart/basic/repeticao-do-while.md)
 - [Laço de repetição Para (for)](https://github.com/leofds/flutter-class/blob/master/dart/basic/repeticao-for.md)
-
+- [Funções](https://github.com/leofds/flutter-class/blob/master/dart/basic/funcao.md)
