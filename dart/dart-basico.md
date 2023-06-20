@@ -22,4 +22,4 @@
 - [Função anônima](https://github.com/leofds/flutter-class/blob/master/dart/basic/funcao-anonima.md)
 - [Vetor/Array/Lista](https://github.com/leofds/flutter-class/blob/master/dart/basic/vetor.md)
 - [Matriz](https://github.com/leofds/flutter-class/blob/master/dart/basic/matriz.md)
-- [Mapa](https://github.com/leofds/flutter-class/blob/master/dart/basic/mapa.md)
+- [Null-safety](https://github.com/leofds/flutter-class/blob/master/dart/basic/null-safety.md)
