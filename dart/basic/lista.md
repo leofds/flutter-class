@@ -147,3 +147,119 @@ List myList = ['Leo', 'Ana', 'Bia', 'Jim', 'Joe'];
 Map myMap = myList.asMap();
 print(myMap); // {0: Leo, 1: Ana, 2: Bia, 3: Jim, 4: Joe}
 ```
+
+### whereType
+
+Retorna um interable com todos os valores do tipo específico.
+
+```dart
+List myList = ['Leo', 1, 'Bia', 2, 'Joe'];
+Iterable it = myList.whereType<int>();
+print(it); // (1, 2)
+```
+
+### getRange
+
+Retorna os elementos a partir de um range start e end.
+
+```dart
+List myList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+print(myList.getRange(4, 8)); // (5, 6, 7, 8)
+```
+
+### replaceRange
+
+Este método ajuda a atualizar elementos em uma lista.
+
+```dart
+List myList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+myList.replaceRange(2, 6, [100, 200]);
+print(myList); // [1, 2, 100, 200, 7, 8, 9, 10]
+```
+
+### firstWhere
+
+Retorna o primeiro elemento da lista que a condição for satisfeita.
+
+```dart
+List myList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+final value = myList.firstWhere((element) => element > 3);
+print(value); // 4
+```
+
+### lastWhere
+
+Retorna o último elemento da lista que a condição for satisfeita.
+
+```dart
+List myList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+final value = myList.lastWhere((element) => element > 3);
+print(value); // 10
+```
+
+### where
+
+Retorna uma nova lista incluindo todos os elementos que a condição for satisfeita.
+
+```dart
+List myList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+final value = myList.where((element) => element > 3).toList();
+print(value); // [4, 5, 6, 7, 8, 9, 10]
+```
+
+### singleWhere
+
+Retorna o elemento que corresponder a condição. Um exceção ocorrerá se o elemento estiver diplicado na lista. Nesse caso firstWhere pode ser utilizado.
+
+```dart
+List myList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+final value = myList.singleWhere((element) => element == 4);
+print(value); // 4
+```
+
+### fold
+
+Retorna um valor único iterando todos os valores de uma lista.
+
+```dart
+List<int> myList = [1, 2, 3, 4, 5];
+final value = myList.fold<int>(0, (previousValue, element) => previousValue + element);
+print(value); // 15
+```
+
+### followedBy
+
+Adiciona novos elementos na lista.
+
+```dart
+List<int> myList = [1, 2, 3, 4, 5];
+print(myList.followedBy([10, 20])); // (1, 2, 3, 4, 5, 10, 20)
+```
+
+### take
+
+Retorna um novo Iterable a partir do inice 0 até a quantidade informada.
+
+```dart
+List myList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+print(myList.take(4).toList()); // [1, 2, 3, 4]
+```
+
+### skip
+
+Ignora os elementos do indice 0 até a quantidade de elementos informada. 
+
+```dart
+List myList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+print(myList.skip(4).toList()); // [5, 6, 7, 8, 9, 10]
+```
+
+### removeWhere
+
+Remove os elementos da lista em que a condição for satisfeita.
+
+```dart
+List myList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+myList.removeWhere((element) => element % 2 == 0);
+print(myList);  // [1, 3, 5, 7, 9]
+```
