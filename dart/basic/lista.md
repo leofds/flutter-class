@@ -17,7 +17,7 @@ var nomes = ['Bia', 'Leo', 'Ana', 'Jim'];
 print(nomes[0]);    // Exibe no terminal o nome Bia
 ```
 
-# Lista
+--- 
 
 ```dart
 List nomes = ['Bia', 'Leo', 'Ana', 'Jim'];
