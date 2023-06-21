@@ -7,8 +7,8 @@ Variáveis são um espaço na memória para armazenar valores de acordo com o ti
 `<tipo> <nome-da-variável> = <inicialização>`
 
 ```dart
-int valor = 10;           // Valores inteiros
-double saldo = 15.55;     // Valores reais 
+int valor = 10;           // Valores inteiros 64 bits (53 bits na web)
+double saldo = 15.55;     // Valores reais 64 bits
 String nome = 'Maria';    // Textos
 bool ligado = true;       // Valores booleanos (verdadeiro/falso)
 ```
