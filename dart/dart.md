@@ -22,7 +22,7 @@
 - [Funções](https://github.com/leofds/flutter-class/blob/master/dart/basic/funcao.md)
 - [Função lambda](https://github.com/leofds/flutter-class/blob/master/dart/basic/funcao-lambda.md)
 - [Função anônima](https://github.com/leofds/flutter-class/blob/master/dart/basic/funcao-anonima.md)
-- [Lista (Vetor/Array)](https://github.com/leofds/flutter-class/blob/master/dart/basic/vetor.md)
+- [Lista (Vetor/Array)](https://github.com/leofds/flutter-class/blob/master/dart/basic/lista.md)
 - [Matriz](https://github.com/leofds/flutter-class/blob/master/dart/basic/matriz.md)
 - [Null-safety (Null assertion (!) e Nul-aware (??))](https://github.com/leofds/flutter-class/blob/master/dart/basic/null-safety.md)
 - [Operador teste de tipo](https://github.com/leofds/flutter-class/blob/master/dart/basic/operador-teste-tipo.md)
