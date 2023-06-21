@@ -1,3 +1,5 @@
+[Dart](https://github.com/leofds/flutter-class/blob/master/dart/dart.md)
+
 # Entrada de dados pela console
 
 A função sdtin.readLineSync()! do pacote dart:io retorna o texto digitado pelo usuário no terminal.
