@@ -46,7 +46,7 @@ List itens = ['Maria', 10, true, 0.5];
 List<String> itens = ['Bia', 'Leo', 'Ana', 'Jim'];
 ```
 
-## Iterando a lista
+## Percorrendo a lista
 
 ```dart
 List<String> nomes = ['Bia', 'Leo', 'Ana', 'Jim'];
@@ -65,4 +65,36 @@ for (final nome in nomes) {
 nomes.forEach((nome) {
   print(nome);
 });
+```
+
+## Funções de Lista
+
+### reduce
+
+Reduz uma lista a um único valor combinando os valores da coleção através de uma função.
+
+```dart
+List<int> myList = [1, 2, 3, 4, 5];
+final result = myList.reduce((value, element) => value + element);
+print(result); // 15
+```
+
+### any
+
+Retorna true se a condição for satisfeita para qualquer um dos elementos.
+
+```dart
+List<int> myList = [1, 2, 3, 4, 5];
+final result = myList.any((element) => element == 3);
+print(result); // true
+```
+
+### map
+
+Retorna uma nova lista com os elementos retornados da função.
+
+```dart
+List<int> myList = [1, 2, 3, 4, 5];
+final result = myList.map((element) => element + 1);
+print(result);  // (2, 3, 4, 5, 6)
 ```
