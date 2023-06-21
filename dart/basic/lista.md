@@ -98,3 +98,52 @@ List<int> myList = [1, 2, 3, 4, 5];
 final result = myList.map((element) => element + 1);
 print(result);  // (2, 3, 4, 5, 6)
 ```
+
+### every
+
+Retorna true se a condição for safisfeita para todos os elementos.
+
+```dart
+List<String> myList = ['Ana', 'Aline', 'Amanda'];
+final result = myList.every((element) => element.startsWith('A'));
+print(result);  // true
+```
+
+### sublist
+
+Retorna uma nova lista contendo os elementos a partir do íncie start e end.
+
+```dart
+List myList = [10, 20, 30, 40, 50];
+print( myList.sublist(1, 4) );   // [20, 30, 40]
+print( myList.sublist(3) );     // [40, 50]
+```
+
+### shuffle
+
+Ordena os elementos de forma aletória.
+
+```dart
+List myList = [1, 2, 3, 4, 5];
+myList.shuffle();   	// Embaralhar
+print(myList);		    // [5, 2, 4, 3, 1]
+```
+
+### reversed
+
+Inverte a ordem da lista.
+
+```dart
+List myList = [1, 2, 3, 4, 5];
+print(myList.reversed.toList());  // [5, 4, 3, 2, 1]
+```
+
+### asMap
+
+Retorna uma representação de mapa da lista.
+
+```dart
+List myList = ['Leo', 'Ana', 'Bia', 'Jim', 'Joe'];
+Map myMap = myList.asMap();
+print(myMap); // {0: Leo, 1: Ana, 2: Bia, 3: Jim, 4: Joe}
+```
