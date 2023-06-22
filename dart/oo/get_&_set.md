@@ -8,9 +8,9 @@ Dart não possui atributos privados, para representar esse tipo de atributo util
 class Pessoa {
   String? _nome;
 }
-```dart
-
 ```
+
+```dart
 void main(List<String> arguments) {
   Pessoa pessoa = Pessoa();
   pessoa._nome = 'Leo';    // Não utilize atributos privados fora da classe
