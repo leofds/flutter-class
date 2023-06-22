@@ -21,8 +21,6 @@ class Pessoa {
 }
 ```
 
-> **_NOTA:_** Atributos privados são definidos adicionando o caracter _ no início do nome do atributo (ex: String? _nome). Dessa forma este atributo não pode ser utilizado fora da classe.
-
 ## Métodos
 
 São funções de um objeto.
