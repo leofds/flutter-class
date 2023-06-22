@@ -32,5 +32,6 @@
 ### Orientação a Objetos
 
 - [Classe](https://github.com/leofds/flutter-class/blob/master/dart/oo/classe.md)
+- [Get & Set](https://github.com/leofds/flutter-class/blob/master/dart/oo/get_&_set.md)
 
 
