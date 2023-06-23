@@ -2,8 +2,8 @@
 
 # Interface
 
-É uma classe abstrata com métodos não implementados. Não pode ser instanciada, deve ser implementada na classe contreta.
-Permite o polimorfismo sem herança.
+É uma classe abstrata com métodos não implementados. Não pode ser instanciada, deve ser implementada na classe contreta.\
+**Permite o polimorfismo sem herança.**
 
 **interface**
 
