@@ -35,4 +35,5 @@
 - [Get & Set (Encapsulamento)](https://github.com/leofds/flutter-class/blob/master/dart/oo/get_&_set.md)
 - [toString](https://github.com/leofds/flutter-class/blob/master/dart/oo/toString.md)
 - [Construtor](https://github.com/leofds/flutter-class/blob/master/dart/oo/construtor.md)
+- [Herança](https://github.com/leofds/flutter-class/blob/master/dart/oo/heranca.md)
 
