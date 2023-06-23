@@ -14,7 +14,7 @@ mixin Avaliar{
 }
 ```
 
-**Utiliando em uma classe (with)
+**Utiliando em uma classe (with)**
 
 ```dart
 class Professor extends Pessoa with Avaliar {}
