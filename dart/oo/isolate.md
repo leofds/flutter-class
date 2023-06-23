@@ -40,7 +40,7 @@ Future<void> _readFile(SendPort p) async {
 
 É possível enviar várias mensagens.
 
-<img src="https://github.com/leofds/flutter-class/assets/5174326/e84088c5-9432-419f-8c52-6c1ee78522f7" width="500">
+<img src="https://github.com/leofds/flutter-class/assets/5174326/4a84321d-74f3-4666-adc0-521575814b32" width="500">
 
 **exemplo**
 
