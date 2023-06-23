@@ -45,5 +45,6 @@
 - [Modificador late](https://github.com/leofds/flutter-class/blob/master/dart/oo/modificador_late.md)
 - [Modificador ? (Null-aware)](https://github.com/leofds/flutter-class/blob/master/dart/oo/operador_null_aware.md)
 - [Modificador static](https://github.com/leofds/flutter-class/blob/master/dart/oo/modificador_static.md)
+- [Mixin](https://github.com/leofds/flutter-class/blob/master/dart/oo/mixin.md)
 
 
