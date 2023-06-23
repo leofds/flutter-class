@@ -6,6 +6,9 @@ Reimplementa um método do pai no filho.
 
 ```dart
 class Animal {
+  String? nome;
+  double? peso;
+
   void comer() => print('Comendo');
 }
 ```
