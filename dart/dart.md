@@ -53,4 +53,5 @@
 - [Exeção](https://github.com/leofds/flutter-class/blob/master/dart/oo/execao.md)
 - [Generics](https://github.com/leofds/flutter-class/blob/master/dart/oo/generics.md)
 - [Generics](https://github.com/leofds/flutter-class/blob/master/dart/oo/codigo_assincrono.md)
+- [Generators](https://github.com/leofds/flutter-class/blob/master/dart/oo/generators.md)
 
