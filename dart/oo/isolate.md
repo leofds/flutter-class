@@ -14,7 +14,7 @@ Os Isolates não compartilham memória, mas podem trocar mensagens através de m
 
 A figura abaixo ilustra a comunicação entre o Isolate principal e o Worker Isolate.
 
-<img src="https://github.com/leofds/flutter-class/assets/5174326/d7d7a066-0f1f-472d-a7d8-9e327fc04bea" width="600">
+<img src="https://github.com/leofds/flutter-class/assets/5174326/d7d7a066-0f1f-472d-a7d8-9e327fc04bea" width="500">
 
 **exemplo**
 
@@ -40,7 +40,7 @@ Future<void> _readFile(SendPort p) async {
 
 É possível enviar várias mensagens.
 
-<img src="https://github.com/leofds/flutter-class/assets/5174326/e84088c5-9432-419f-8c52-6c1ee78522f7" width="400">
+<img src="https://github.com/leofds/flutter-class/assets/5174326/e84088c5-9432-419f-8c52-6c1ee78522f7" width="500">
 
 **exemplo**
 
