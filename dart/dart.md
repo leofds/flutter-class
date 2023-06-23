@@ -42,3 +42,4 @@
 - [Polimorfismo](https://github.com/leofds/flutter-class/blob/master/dart/oo/polimorfismo.md)
 - [Interface](https://github.com/leofds/flutter-class/blob/master/dart/oo/interface.md)
 - [Extendendo um método](https://github.com/leofds/flutter-class/blob/master/dart/oo/extendendo_metodo.md)
+- [Modificador late](https://github.com/leofds/flutter-class/blob/master/dart/oo/modificador_late.md)
