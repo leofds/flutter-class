@@ -47,5 +47,6 @@
 - [Modificador static](https://github.com/leofds/flutter-class/blob/master/dart/oo/modificador_static.md)
 - [Mixin](https://github.com/leofds/flutter-class/blob/master/dart/oo/mixin.md)
 - [Factory](https://github.com/leofds/flutter-class/blob/master/dart/oo/factory.md)
+- [Exeção](https://github.com/leofds/flutter-class/blob/master/dart/oo/execao.md)
 
 
