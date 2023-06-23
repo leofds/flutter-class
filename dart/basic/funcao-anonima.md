@@ -1,6 +1,6 @@
 [Dart](https://github.com/leofds/flutter-class/blob/master/dart/dart.md)
 
-# Função anônima e função como parâmetro
+## Função anônima e função como parâmetro
 
 ```dart
 void main() {
