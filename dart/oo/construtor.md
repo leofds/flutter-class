@@ -97,3 +97,22 @@ void main() {
   Pessoa pessoa1 = Pessoa.casada(nome: 'Leo');
 }
 ```
+
+## Redirecionando construtor
+
+Um construtor pode chamar outro construtor.
+
+```dart
+class Veiculo {
+  String? nome;
+  String? combustivel;
+
+  Veiculo({this.nome, this.combustivel});
+
+  Veiculo.gasolina({String? nome}) 
+    : this(nome: nome, combustivel: 'Gasolina'); // Redirecionando
+
+  Veiculo.diesel({String? nome}) 
+    : this(nome: nome, combustivel: 'Diesel'); // Redirecionando
+}
+```
