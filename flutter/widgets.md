@@ -93,7 +93,7 @@ Row(
 
 ## Expanded
 
-Ocupa todo o espaço disponível, como a máxima largura disponivel
+Compartilha o espaço disponível do widget pai e força o widget filho a alterar sua largura/altura para preencher o espaço disponível.
 
 ```dart
 Expanded(
@@ -101,6 +101,21 @@ Expanded(
   flex:	2  // peso, agora o filho tem duas vezes o tamanho, no caso de estar em	uma row com mais um Expanded
 )
 ```
+
+## Flexible
+
+Compartilha o espaço disponível do widget pai e mas **NÃO** força o widget filho a caber no espaço.
+
+```dart
+Flexible(
+  child: <Widget?>,
+  fit: FlexFit.loose,    // O tamanho preferido do widget é usado. (Padrão)
+  fit: FlexFit.loose,    // Força o widget a preencher todo o espaço extra.
+)
+```
+
+![image](https://github.com/leofds/flutter-class/assets/5174326/b2425152-1e39-4c63-857a-88d78f5911a2)
+
 
 ## Padding
 
