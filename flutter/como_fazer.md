@@ -62,3 +62,16 @@ Container(
   ),
 )
 ```
+
+## Container bordas arredondadas
+
+```dart
+Container(
+  width: ,
+  height: ,
+  decoration: BoxDecoration (
+    borderRadius: BorderRadius.circular(4),     // container arredondado
+    color: Colors.grey[200],                    // com box decoration o container não pode ter color
+  )
+)
+```
