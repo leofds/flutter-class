@@ -1,6 +1,6 @@
-[Dart](https://github.com/leofds/flutter-class/blob/master/dart/dart.md)
+[Dart](https://github.com/leofds/flutter-class/blob/master/dart/README.md)
 
-# Exeção
+# Exceção
 
 É um problema que ocorre durante a execução do programa. Quando uma exceção ocorre o fluxo normal do programa é interrompido e é encerrado de forma anormal.\
 
