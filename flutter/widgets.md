@@ -223,7 +223,7 @@ TextField(
 )
 ```
 
-> **_NOTE:_** Para usar o `TextField` dentro de um `Row`, você precisa envolver o `TextField` com um `Expanded`, `Flexible` ou com `Container`/`SizedBox` provendo `width`, pois os dois expandem na horizontal. 
+> **_NOTA:_** Para usar o `TextField` dentro de um `Row`, você precisa envolver o `TextField` com um `Expanded`, `Flexible` ou com `Container`/`SizedBox` provendo `width`, pois os dois expandem na horizontal. 
 
 ## Form
 
