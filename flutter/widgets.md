@@ -69,6 +69,8 @@ Container(
 
 ## Column
 
+- Expande na vertical.
+
 ```dart
 Column(
   mainAxisAlignment: MainAxisAlignment.center,      // Alinha no centro da coluna
@@ -78,6 +80,8 @@ Column(
 ```
 
 ## Row
+
+- Expande na horizontal.
 
 ```dart
 Row(
@@ -170,6 +174,9 @@ ElevatedButton(
 
 ## TextField
 
+- Expande na horizontal.
+- O TextField não possui uma largura intrínseca, ele se redimensiona para a largura do seu container pai.
+
 ```dart
 final emailController = TextEditingController();    // Controlador do TextField
 ```
@@ -200,6 +207,8 @@ TextField(
   onChanged: (text){},                  // Ao mudar o conteúdo
 )
 ```
+
+> **_NOTE:_** Para usar o `TextField` dentro de um `Row`, você precisa envolver o `TextField` com um `Expanded`, `Flexible` ou com `Container`/`SizedBox` provendo `width`, pois os dois expandem na horizontal. 
 
 ## Form
 
