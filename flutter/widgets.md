@@ -12,3 +12,19 @@ MaterialApp(
   home: <Widget?>,
 )
 ```
+
+## Scaffold & AppBar & Drawer
+
+```dart
+Scaffold(
+  backgroundColor: Colors.red,
+  appBar: AppBar(
+    title: Text('Title'),
+    centerTitle: true,
+  ),
+  drawer: Drawer(
+    child: <Widget>,
+  ),
+  body: <Widget?>,
+)
+```
