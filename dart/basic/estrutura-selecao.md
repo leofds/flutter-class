@@ -1,4 +1,4 @@
-[Dart](https://github.com/leofds/flutter-class/blob/master/dart/dart.md)
+[Dart](https://github.com/leofds/flutter-class/blob/master/dart/README.md)
 
 # Estrutura de seleção (SWITCH)
 
