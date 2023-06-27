@@ -50,7 +50,7 @@
 
 - [Mixin](https://github.com/leofds/flutter-class/blob/master/dart/oo/mixin.md)
 - [Factory](https://github.com/leofds/flutter-class/blob/master/dart/oo/factory.md)
-- [Exeção](https://github.com/leofds/flutter-class/blob/master/dart/oo/execao.md)
+- [Exceção](https://github.com/leofds/flutter-class/blob/master/dart/oo/excecao.md)
 - [Generics](https://github.com/leofds/flutter-class/blob/master/dart/oo/generics.md)
 - [Generics](https://github.com/leofds/flutter-class/blob/master/dart/oo/codigo_assincrono.md)
 - [Generators](https://github.com/leofds/flutter-class/blob/master/dart/oo/generators.md)
