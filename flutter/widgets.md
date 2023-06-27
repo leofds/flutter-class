@@ -244,6 +244,16 @@ if(_formKey.currentState!.validate()) {
 Image(image: AssetImage('assets/images/person.png'), height: 200),
 ```
 
+## SingleChildScrollView
+
+Uma caixa com um widget que pode ser scrolled
+
+```dart
+SingleChildScrollView(
+  child: <Widget?>
+)
+```
+
 ## ListView
 
 Exibe lista. Também serve para mostrar itens na vertical em tela pequena. Tudo o que for colocado dentro do lista vai ocupar o maximo espaco horizontal. Pode estar dentro de um SizedBox para limitar o tamanho verticale criar o scroll automatico.
