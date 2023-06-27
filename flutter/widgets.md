@@ -107,6 +107,7 @@ Container(
 Column(
   mainAxisAlignment: MainAxisAlignment.center,      // Alinha no centro da coluna
   crossAxisAlignment: CrossAxisAlignment.stretch,   // (eixo cruzado, horizontal) Tenta ocupar a máxima largura
+  mainAxisSize:  MainAxisSize.min,                  // Tamanho do eixo principal, o minimo possível, assim a coluna não ocupa a tela toda
   children: <Widget?>[]
 )
 ```
@@ -143,11 +144,24 @@ Flexible(
   child: <Widget?>,
   fit: FlexFit.loose,    // O tamanho preferido do widget é usado. (Padrão)
   fit: FlexFit.loose,    // Força o widget a preencher todo o espaço extra.
+  flex
+)
+```
+
+Para deixar dois widgets com o mesmo espaço em diferentes larguras de telas.
+
+```dart
+Flexible(
+  flex: 1,
+),
+Flexible(
+  flex: 1,
 )
 ```
 
 ![image](https://github.com/leofds/flutter-class/assets/5174326/b2425152-1e39-4c63-857a-88d78f5911a2)
 
+Usado com lista e shrinkWrap, permite que ela cresça e diminua conforme os elementos. Quando a lista alcançar o tamanho máximo ela para de crescer, e permite o scroll dos elementos.
 
 ## Padding
 
@@ -197,8 +211,14 @@ TextButton(
   onPressed: (){},
   style: TextButton.styleFrom(
     primary: Colors.black,              // Ao clicar o efeito do botão fica com uma cor preta
-    backgroundColor: Colors.white,
+    padding: const EdgeInsets.all(32),  // ou EdgeInsets.only(top: 32)
     fixedSize: const Size(100, 100),    // Cuidade pois não irá redimencionar
+    backgroundColor: Colors.white,
+    fixedSize: const Size(100, 100),    // Cuidado pois não irá redimencionar
+    shape: RoundedRectangleBorder(      // Borda do botão
+      side: BorderSide(color: Colors.green,width: 5,),
+      borderRadius: BorderRadius.circular(24)
+    )
   ),
   child: <Widget?>
 )
@@ -214,6 +234,7 @@ ElevatedButton(
     primary: Colors.purple,         // cor do botão
     fixedSize: Size(100, 200),      // define um tamanho fixo
     padding: EdgeInsets.all(32),    // espaçamento
+    padding: EdgeInsets.zero
     shape: StadiumBorder(),         // borda redonda
   ),
 )
@@ -224,23 +245,30 @@ ElevatedButton(
 - Expande na horizontal.
 - O TextField não possui uma largura intrínseca, ele se redimensiona para a largura do seu container pai.
 
-```dart
-final emailController = TextEditingController();    // Controlador do TextField
-```
 
 ```dart
 TextField(
   controller: emailController,		// Especificando um TextEditingController atributo da classe
+  focusNode: emailFocus,
   decoration: InputDecoration(
     labelText: 'E-mail',
     hintText: 'exemplo@exemplo.com',
     border: OutlineInputBorder(),    // InputBorder.none
+    enabledBorder: OutlineInputBorder(
+      borderSide: BorderSide(color: Colors.white)
+    ),
     errorText: 'Campo obrigatório',  // ou null
     prefixText: 'R\$ ',              // Text prefixado no início da caixa de texto
     suffixText: 'cm',                // Text prefixado no final da caixa de texto
     labelStyle: TextStyle(
       fontSize: 40,
       color: Color(0xff00d7f3),
+    ),
+    focusedBorder: OutlineInputBorder(
+      borderSide: BorderSide(
+        color: Color(0xff00d7f3),
+        width: 2
+      ),
     ),
   )
   obscureText: true,                    // oculta os caracteres
@@ -251,8 +279,27 @@ TextField(
     fontWeight: FontWeight.w700,
     color: Colors.purple
   ),
+  onSubmitted: (text){},                // Ao clicar no enter
   onChanged: (text){},                  // Ao mudar o conteúdo
 )
+```
+Controlador e focus
+
+```dart
+final emailController = TextEditingController();    // Controlador do TextField
+final emailFocus = FocusNode();
+```
+
+Foco no campo de texto
+
+```dart
+FocusScope.of(context).requestFocus(emailFocus);
+```
+
+Decorations
+
+```dart
+InputDecoration.collapsed(hintText: "Enviar uma mensagem")
 ```
 
 > **_NOTA:_** Para usar o `TextField` dentro de um `Row`, você precisa envolver o `TextField` com um `Expanded`, `Flexible` ou com `Container`/`SizedBox` provendo `width`, pois os dois expandem na horizontal. 
@@ -302,7 +349,7 @@ Image(image: AssetImage('assets/images/person.png'), height: 200),
 
 ## SingleChildScrollView
 
-Uma caixa com um widget que pode ser scrolled
+Cria um scroll view de apenas um filho
 
 ```dart
 SingleChildScrollView(
