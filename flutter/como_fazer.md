@@ -46,3 +46,19 @@ ElevatedButton(
 ```dart
 FocusScope.of(context).requestFocus(FocusNode());
 ```
+
+## Container com imagem de fundo
+
+```dart
+Container(
+  width: 50,
+  height: 100,
+  decoration: BoxDecoration(
+    image: DecorationImage(
+      image: NetworkImage('https://'),              // imagem da internet
+      image: AssetImage('assets/images/img.png'),   // imagem da pasta
+      fit: BoxFit.fill
+    ),
+  ),
+)
+```
