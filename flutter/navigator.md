@@ -54,3 +54,19 @@ WillPopScope(
   child: <Widget?>
 )
 ```
+
+# Navegando com rotas nomeadas
+
+```dart
+MaterialApp(
+  initialRoute: '/',
+  routes: {
+    '/': (context) => const Home(),
+    '/second': (context) => const SecondPage(),
+  }
+)
+```
+
+```dart
+Navigator.pushNamed(context, '/second');
+```
