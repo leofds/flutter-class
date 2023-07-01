@@ -94,7 +94,7 @@ Widget build(BuildContext context) {
   if(args != null){
 ```
 
-## 3. NAvegando para o widget
+## 3. Navegando para o widget
 
 ```dart
 Navigator.pushNamed(context, '/second',arguments: PageArguments('Segunda pagina','Com argumentos'));
