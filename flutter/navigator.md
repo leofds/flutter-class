@@ -70,3 +70,32 @@ MaterialApp(
 ```dart
 Navigator.pushNamed(context, '/second');
 ```
+
+# Passando argumentos para uma rota nomeada
+
+## 1. Defina os argumentos que deseja passar, crie uma classe para armazená-los
+
+```dart
+class PageArguments {
+  final String title;
+  final String message;
+
+  PageArguments(this.title, this.message);
+}
+```
+
+## 2. Recebendo os argumentos 
+
+```dart
+@override
+Widget build(BuildContext context) {
+
+  final args = ModalRoute.of(context)?.settings.arguments;
+  if(args != null){
+```
+
+## 3. NAvegando para o widget
+
+```dart
+Navigator.pushNamed(context, '/second',arguments: PageArguments('Segunda pagina','Com argumentos'));
+```
