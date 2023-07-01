@@ -26,7 +26,11 @@ Retornando à página anterior
 Navigator.pop(context);
 ```
 
-# Retornando objetos
+## Retornando um objeto
+
+```dart
+Navigator.pop(context, _myObjt);
+```
 
 ```dart
 final myObj = await Navigator.push(context,
@@ -38,19 +42,13 @@ if(myObj != null){
 }
 ```
 
-## Retornando o objeto
-
-```dart
-Navigator.pop(context, _myObjt);
-```
-
 ## Evento ao clicar na seta de voltar
 
 O primeiro Widget deve ser o WillPopScope
 
 ```dart
 WillPopScope(
-  onWillPop: ()async{return true},
+  onWillPop: () async { return true },
   child: <Widget?>
 )
 ```
