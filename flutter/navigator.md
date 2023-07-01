@@ -48,7 +48,9 @@ O primeiro Widget deve ser o WillPopScope
 
 ```dart
 WillPopScope(
-  onWillPop: () async { return true },
+  onWillPop: () async {
+    return true;
+  },
   child: <Widget?>
 )
 ```
