@@ -32,6 +32,8 @@ Navigator.pop(context);
 Navigator.pop(context, _myObjt);
 ```
 
+## Obtendo o objeto retornado
+
 ```dart
 final myObj = await Navigator.push(context,
  MaterialPageRoute(builder: (context) => NewPage())
