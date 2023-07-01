@@ -92,7 +92,7 @@ class PageArguments {
 @override
 Widget build(BuildContext context) {
 
-  final args = ModalRoute.of(context)?.settings.arguments;
+  final args = ModalRoute.of(context)?.settings.arguments as PageArguments?;
   if(args != null){
 ```
 
@@ -101,3 +101,40 @@ Widget build(BuildContext context) {
 ```dart
 Navigator.pushNamed(context, '/second',arguments: PageArguments('Segunda pagina','Com argumentos'));
 ```
+
+# Alternativa, extraindo argumentos com onGenerateRoute
+
+```dart
+MaterialApp(
+  initialRoute: '/',
+  onGenerateRoute: (settings){
+    if(settings.name == '/'){
+      return MaterialPageRoute(builder: (context) => Home());
+    }
+    if(settings.name == '/second'){
+      final args = ModalRoute.of(context)?.settings.arguments as PageArgument?;
+      return MaterialPageRoute(
+        builder: (context) {
+          return SecondPage(pageArgument: args;
+        }
+      );
+    }
+  },
+);
+```
+
+## Declare o argumento no construtor da classe
+
+```dart
+class SecondPage extends StatefulWidget {
+
+  PageArgument? arg;
+
+  SecondPage({super.key, this.arg});
+```
+
+```dart
+@override
+ Widget build(BuildContext context) {
+   final args = widget.contato;
+``´
