@@ -14,7 +14,7 @@ Push removendo as rotas anteriores
 
 ```dart
 Navigator.of(context).pushAndRemoveUntil(
-  MaterialPageRoute(builder: (context) => Home()), (route) => false
+  MaterialPageRoute(builder: (context) => NewPage()), (route) => false
 );
 ```
 
