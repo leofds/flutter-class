@@ -6,7 +6,7 @@ Relação dos principais Widgets e suas propriedades mais comuns
 # Base
 
 - [MaterialApp](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/materialapp.md)
-- [Scaffold & AppBar & Drawer](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/scaffold.md)
+- [Scaffold & AppBar & Drawer & FloatingActionButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/scaffold.md)
 
 ## SafeArea
 
