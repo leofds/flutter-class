@@ -33,6 +33,8 @@ Relação dos principais Widgets e suas propriedades mais comuns
 - [TextButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/textbutton.md)
 - [ElevatedButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/elevatedbutton.md)
 - [IconButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/iconbutton.md)
+- [Switch](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/switch.md)
+- [Checkbox](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/checkbox.md)
 
 ## Image
 
@@ -113,37 +115,9 @@ Card(
 ),
 ```
 
-## Switch
 
-```dart
-boo sw = true;    // atributo
 
-Switch(
-  value: sw,
-  onChanged: (value) {
-    setState(() {
-      sw = value;
-    });
-  },
-),
-```
 
-## Checkbox
-
-https://api.flutter.dev/flutter/material/Checkbox-class.html
-
-```dart
-bool cb = true;   // atributo
-
-Checkbox(
-  value: cb,
-  onChanged: (bool? value) {
-    setState(() {
-      cb = value!;
-    });
-  },
-)
-```
 
 ## GestureDetector
 
