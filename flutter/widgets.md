@@ -20,6 +20,7 @@ Relação dos principais Widgets e suas propriedades mais comuns
 - [SizedBox](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/sizedbox.md)
 - [Divider](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/divider.md)
 - [Align](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/align.md)
+- [SingleChildScrollView](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/singlechildscrollview.md)
 
 ## Text
 
@@ -42,68 +43,18 @@ Relação dos principais Widgets e suas propriedades mais comuns
 - [CircleAvatar](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/circleavatar.md)
 - [Icon](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/icon.md)
 
+## Gesture
 
+- [GestureDetector](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/gesturedetector.md)
+- [InkWell](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/inkwell.md)
 
-## SingleChildScrollView
+## List
 
-Cria um scroll view de apenas um filho
+- [ListView](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/listview.md)
+- [ListTile](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/listtile.md)
+- [ListViewBuilder](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/listviewbuilder.md)
 
-```dart
-SingleChildScrollView(
-  child: <Widget?>
-)
-```
-
-## ListView
-
-Exibe lista. Também serve para mostrar itens na vertical em tela pequena. Tudo o que for colocado dentro do lista vai ocupar o maximo espaco horizontal. Pode estar dentro de um SizedBox para limitar o tamanho verticale criar o scroll automatico.
-
-```dart
-ListView(
-  children: <Widget?>[]
-)
-```
-
-## ListTile
-
-Um item da lista, limita as informações exibidas
-
-```dart
-ListTile(
-  title: Text('Tarefa 1'),
-  subtitle: Text('20/11/2022'),
-  leading: Icon(Icons.save, size: 30,),
-  onTap: (){
-    print('tarefa 1');
-  },
-)
-```
-
-## ListView.buider
-
-Cria uma lista que é construída conforme ele for aparecendo (sob demanda), não consome recursos
-
-```dart 
-ListView.builder(
-  padding: EdgeInsets.only(top: 10.0),
-  itemCount: _list.length,
-  itemBuilder: (context, index){
-    return <Widget>;
-  }
-)
-```
-
-```dart
-istView.separated(
-  itemCount: _list.length,
-  itemBuilder: (context, item) {
-    return <Widget>;
-  },
-  separatorBuilder: (BuildContext, index) {
-    return Divider(height: 1);
-  },
-)
-```
+---
 
 ## Card
 
@@ -114,35 +65,6 @@ Card(
   ),
 ),
 ```
-
-
-
-
-
-## GestureDetector
-
-Torna im Widget clicável
-
-```dart
-GestureDetector(
-  child: <Widget?>,
-  onTap: (){},
-  onLongPress: (){}
-)
-```
-
-## InkWell
-
-Semelhante ao gesture detector, porém cria um efeito visual ao toque
-
-```dart
-InkWell(
-  onTap: (){},
-  onLongPress: (){},
-  child: <Widget?>,
-}
-```
-
 
 ## PageView
 
