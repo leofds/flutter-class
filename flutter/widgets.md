@@ -19,6 +19,7 @@ Relação dos principais Widgets e suas propriedades mais comuns
 - [Expanded & Flexible](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/expanded_flexible.md)
 - [SizedBox](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/sizedbox.md)
 - [Divider](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/divider.md)
+- [Align](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/align.md)
 
 ## Text
 
@@ -31,11 +32,13 @@ Relação dos principais Widgets e suas propriedades mais comuns
 
 - [TextButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/textbutton.md)
 - [ElevatedButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/elevatedbutton.md)
+- [IconButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/iconbutton.md)
 
 ## Image
 
 - [Image](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/image.md)
 - [CircleAvatar](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/circleavatar.md)
+- [Icon](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/icon.md)
 
 
 
@@ -110,36 +113,6 @@ Card(
 ),
 ```
 
-## IconButton
-
-```dart
-IconButton(
-  onPressed: (){},
-  icon: Icon(Icons.photo_camera)
-)
-```
-
-## Icon
-
-```dart
-Icon(
-  Icons.add,
-  size: 30,
-  color: Colors.black
-)
-```
-
-## Align
-
-Alinha um Widget que naturalmente ficaria alinhado
-
-```dart
-Align(
-  alignment: Alignment.centerRight,
-  child: Icon(Icons.delete, color: Colors.black,),
-)
-```
-
 ## Switch
 
 ```dart
@@ -196,13 +169,6 @@ InkWell(
 }
 ```
 
-## Divider
-
-Cria uma linha
-
-```dart
-Divider()
-```
 
 ## PageView
 
