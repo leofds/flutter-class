@@ -6,34 +6,7 @@ Relação dos principais Widgets e suas propriedades mais comuns
 # Base
 
 - [MaterialApp](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/materialapp.md)
-
-
-## Scaffold & AppBar & Drawer
-
-```dart
-Scaffold(
-  backgroundColor: Colors.red,
-  appBar: AppBar(
-    title: Text('Title'),
-    centerTitle: true,
-    backgroundColor: Colors.green,
-    actions: [
-      IconButton(
-          onPressed: () {},
-          icon: Icon(Icons.refresh)),
-    ],
-  ),
-  drawer: Drawer(
-    child: <Widget>,
-  ),
-  floatingActionButton: FloatingActionButton(
-    onPressed: (){},
-    child: Icon(Icons.add),
-    backgroundColor: Colors.red,
-  ),
-  body: <Widget?>,
-)
-```
+- [Scaffold & AppBar & Drawer](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/scaffold.md)
 
 ## SafeArea
 
