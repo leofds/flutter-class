@@ -13,7 +13,7 @@ Relação dos principais Widgets e suas propriedades mais comuns
 
 - [Container](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/container.md)
 - [Column](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/column.md)
-- [Row](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/ow.md)
+- [Row](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/row.md)
 
 ---
 
