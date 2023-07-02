@@ -1,3 +1,5 @@
+[Widgets](https://github.com/leofds/flutter-class/blob/master/flutter/widgets.md)
+
 # Container
 
 ```dart
@@ -14,25 +16,19 @@ Container(
 
 Container com imagem no fundo
 ```dart
-Container(
-  ...
-  decoration: BoxDecoration(
-    image: DecorationImage(
-      image: NetworkImage('https://'),              // imagem da internet
-      image: AssetImage('assets/images/img.png'),   // imagem da pasta
-      fit: BoxFit.fill
-    ),
+decoration: BoxDecoration(
+  image: DecorationImage(
+    image: NetworkImage('https://'),              // imagem da internet
+    image: AssetImage('assets/images/img.png'),   // imagem da pasta
+    fit: BoxFit.fill
   ),
-)
+),
 ```
 
 Container com bordas arredondadas
 ```dart
-Container(
-  ...
-  decoration: BoxDecoration (
-    borderRadius: BorderRadius.circular(4),     // container arredondado
-    color: Colors.grey[200],                    // com box decoration o container não pode ter color
-  )	
-)
+decoration: BoxDecoration (
+  borderRadius: BorderRadius.circular(4),     // container arredondado
+  color: Colors.grey[200],                    // com box decoration o container não pode ter color
+)	
 ```
