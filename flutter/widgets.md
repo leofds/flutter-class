@@ -32,29 +32,12 @@ Relação dos principais Widgets e suas propriedades mais comuns
 - [TextButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/textbutton.md)
 - [ElevatedButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/elevatedbutton.md)
 
-
-
-
-
 ## Image
 
-```dart
-Image(image: AssetImage('assets/images/person.png'), height: 200),
-```
+- [Image](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/image.md)
+- [CircleAvatar](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/circleavatar.md)
 
-## Image
 
-```dart
-Image(image: AssetImage('assets/images/person.png'), height: 200),
-```
-
-```dart
-Image.network('https://www.maxicar.com.br/wp-content/uploads/2023/01/VW-Brasilia-1976-1.jpg'),
-```
-
-```dart
-Image.asset('assets/images/person.png'),
-```
 
 ## SingleChildScrollView
 
@@ -244,12 +227,4 @@ Mudar a página através do código
 pageController.jumpToPage(0);
 ```
 
-## CircleAvatar
 
-```dart
-CircleAvatar(
-  backgroundImage: NetworkImage('https://www.maxicar.com.br/wp-content/uploads/2023/01/VW-Brasilia-1976-1.jpg'),
-  //backgroundImage: AssetImage('assets/image/santana.jpg'),
-  radius: 80,
-)
-```
