@@ -14,6 +14,7 @@ Relação dos principais Widgets e suas propriedades mais comuns
 - [Container](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/container.md)
 - [Column](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/column.md)
 - [Row](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/row.md)
+- [Center](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/center.md)
 - [Padding](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/padding.md)
 - [Expanded & Flexible](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/expanded_flexible.md)
 
