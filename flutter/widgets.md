@@ -7,14 +7,7 @@ Relação dos principais Widgets e suas propriedades mais comuns
 
 - [MaterialApp](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/materialapp.md)
 - [Scaffold & AppBar & Drawer & FloatingActionButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/scaffold.md)
-
-## SafeArea
-
-```dart
-SafeArea(
-  child: <Widget?>
-)
-```
+- [SafeArea](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/safearea.md)
 
 ## Text
 
