@@ -3,15 +3,19 @@
 
 Relação dos principais Widgets e suas propriedades mais comuns
 
-# Base
+## Base
 
 - [MaterialApp](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/materialapp.md)
 - [Scaffold & AppBar & Drawer & FloatingActionButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/scaffold.md)
 - [SafeArea](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/safearea.md)
 
-# Layout
+## Layout
 
 - [Container](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/container.md)
+- [Column](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/column.md)
+- [Row](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/ow.md)
+
+---
 
 ## Text
 
@@ -38,30 +42,6 @@ Expanded(
 )
 ```
 
-## Column
-
-- Expande na vertical.
-
-```dart
-Column(
-  mainAxisAlignment: MainAxisAlignment.center,      // Alinha no centro da coluna
-  crossAxisAlignment: CrossAxisAlignment.stretch,   // (eixo cruzado, horizontal) Tenta ocupar a máxima largura
-  mainAxisSize:  MainAxisSize.min,                  // Tamanho do eixo principal, o minimo possível, assim a coluna não ocupa a tela toda
-  children: <Widget?>[]
-)
-```
-
-## Row
-
-- Expande na horizontal.
-
-```dart
-Row(
-  mainAxisAlignment: ,
-  crossAxisAlignment: ,
-  children: , <Widget?>[]
-)
-```
 
 ## Expanded
 
