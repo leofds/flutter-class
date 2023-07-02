@@ -1,4 +1,4 @@
-[Widgets](https://github.com/leofds/flutter-class/tree/master/flutter)
+[Widgets](https://github.com/leofds/flutter-class/blob/master/flutter/widgets.md)
 
 ## MaterialApp
 
