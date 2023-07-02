@@ -9,6 +9,10 @@ Relação dos principais Widgets e suas propriedades mais comuns
 - [Scaffold & AppBar & Drawer & FloatingActionButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/scaffold.md)
 - [SafeArea](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/safearea.md)
 
+# Layout
+
+- [Container](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/container.md)
+
 ## Text
 
 ```dart
@@ -31,19 +35,6 @@ Expanded(
     maxLines: 1,
     overflow: TextOverflow.ellipsis,
   ),
-)
-```
-## Container
-
-```dart
-Container(
-  alignment: Alignment.center,		    // Alinha o conteúdo no container
-  color: ,
-  width: 50,
-  height: 100,                        // se não for definido um tamanho ele se auto ajusta ao conteúdo
-  padding: EdgeInsets.all(10.0),      // espeçamento dentro do container
-  margin: EdgeInsets.only(left: 10),  // semelhante ao padding porém faz o afastamento fora do container
-  child: <Widget?>,
 )
 ```
 
