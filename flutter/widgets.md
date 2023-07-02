@@ -17,6 +17,8 @@ Relação dos principais Widgets e suas propriedades mais comuns
 - [Center](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/center.md)
 - [Padding](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/padding.md)
 - [Expanded & Flexible](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/expanded_flexible.md)
+- [SizedBox](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/sizedbox.md)
+- [Divider](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/divider.md)
 
 ---
 
@@ -45,37 +47,6 @@ Expanded(
 )
 ```
 
-
-
-## SizedBox
-
-Cria um widget invisível, adiciona um espeçamento em uma lista, também permite aumentar a altura do botão, colocando o botão como filho e definindo o height.
-
-```dart
-SizedBox(
-  width: 64,
-  height: 32,
-  child: <Widget?>
-)
-```
-
-## Divider
-
-Divisão entre enementos
-
-```dart
-Divider(),
-```
-
-## Center
-
-Cntraliza o filho no espaço disponível
-
-```dart
-Center(
-  child: <Widget?>
-)
-```
 
 ## TextButton
 
