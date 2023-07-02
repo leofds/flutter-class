@@ -27,43 +27,10 @@ Relação dos principais Widgets e suas propriedades mais comuns
 - [Form](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/form.md)
 - [TextFormField](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/textformfield.md)
 
-## TextButton
+## Button
 
-```dart
-TextButton(
-  onPressed: (){},
-  style: TextButton.styleFrom(
-    primary: Colors.black,              // Ao clicar o efeito do botão fica com uma cor preta
-    padding: const EdgeInsets.all(32),  // ou EdgeInsets.only(top: 32)
-    fixedSize: const Size(100, 100),    // Cuidade pois não irá redimencionar
-    backgroundColor: Colors.white,
-    fixedSize: const Size(100, 100),    // Cuidado pois não irá redimencionar
-    shape: RoundedRectangleBorder(      // Borda do botão
-      side: BorderSide(color: Colors.green,width: 5,),
-      borderRadius: BorderRadius.circular(24)
-    )
-  ),
-  child: <Widget?>
-)
-```
-
-## ElevatedButton
-
-```dart
-ElevatedButton(
-  onPressed: (){},
-  child: <Widget?>,
-  style: ElevatedButton.styleFrom(
-    primary: Colors.purple,         // cor do botão
-    fixedSize: Size(100, 200),      // define um tamanho fixo
-    padding: EdgeInsets.all(32),    // espaçamento
-    padding: EdgeInsets.zero
-    shape: StadiumBorder(),         // borda redonda
-  ),
-)
-```
-
-
+- [TextButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/textbutton.md)
+- [ElevatedButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/elevatedbutton.md)
 
 
 
