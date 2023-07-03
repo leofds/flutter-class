@@ -75,6 +75,8 @@ Navigator.pushNamed(context, '/second');
 
 # Passando argumentos para uma rota nomeada
 
+> **_ATENÇÃO:_** Não é recomendado utilizar rota nomeada em novos desenvolvimentos!
+
 ## 1. Defina os argumentos que deseja passar, crie uma classe para armazená-los
 
 ```dart
