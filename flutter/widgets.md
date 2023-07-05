@@ -42,6 +42,7 @@ Relação dos principais Widgets e suas propriedades mais comuns
 - [Image](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/image.md)
 - [CircleAvatar](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/circleavatar.md)
 - [Icon](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/icon.md)
+- [FadeInImage.memoryNetwork](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/fadeinimage_memorynetwork.md)
 
 ## Gesture
 
