@@ -65,6 +65,7 @@ Relação dos principais Widgets e suas propriedades mais comuns
 ## Progress
 
 - [CircularProgressIndicator](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/circularprogressindicator.md)
+- [LinearProgressIndicator](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/linearprogressindicator.md)
 
 ## Grid
 
