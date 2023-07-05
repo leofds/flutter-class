@@ -64,23 +64,17 @@ Relação dos principais Widgets e suas propriedades mais comuns
 
 ## Progress
 
-[CircularProgressIndicator](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/circularprogressindicator.md)
+- [CircularProgressIndicator](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/circularprogressindicator.md)
 
 ## Grid
 
-[GridViewBuiler](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/gridviewbuilder.md)
+- [GridViewBuiler](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/gridviewbuilder.md)
+
+## Panel
+
+- [Card](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/card.md)
 
 ---
-
-## Card
-
-```dart
-Card(
-  child: Container(
-    height: 100,
-  ),
-),
-```
 
 ## PageView
 
