@@ -21,6 +21,7 @@ Relação dos principais Widgets e suas propriedades mais comuns
 - [Divider](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/divider.md)
 - [Align](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/align.md)
 - [SingleChildScrollView](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/singlechildscrollview.md)
+- [Stack](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/stack.md)
 
 ## Text
 
@@ -58,10 +59,6 @@ Relação dos principais Widgets e suas propriedades mais comuns
 - [ListViewBuilder](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/listviewbuilder.md)
 - [Dismissible](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/dismissible.md)
 
-## Builder
-
-- [FutureBuilder](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/futurebuilder.md)
-
 ## Progress
 
 - [CircularProgressIndicator](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/circularprogressindicator.md)
@@ -75,29 +72,11 @@ Relação dos principais Widgets e suas propriedades mais comuns
 
 - [Card](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/card.md)
 
----
+## Page
 
-## PageView
+- [PageView](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/pageview.md)
 
-```dart
-final pageController = PageController();
-```
+## Builder
 
-```dart
-PageView(
-  controller: pageController,
-  //physics: NeverScrollableScrollPhysics(),    // Desabilita a transição
-  children: [
-    <Widget>,
-    <Widget>,
-    <Widget>,
-  ],
-)
-```
-
-Mudar a página através do código
-```dart
-pageController.jumpToPage(0);
-```
-
-
+- [FutureBuilder](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/futurebuilder.md)
+- [StreamBuilder](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/streambuilder.md)
