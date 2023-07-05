@@ -54,6 +54,7 @@ Relação dos principais Widgets e suas propriedades mais comuns
 - [ListTile](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/listtile.md)
 - [CheckBoxListTile](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/checkboxlisttile.md)
 - [ListViewBuilder](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/listviewbuilder.md)
+- [Dismissible](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/dismissible.md)
 
 # Builder
 
