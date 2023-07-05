@@ -84,12 +84,12 @@ class NewPage extends StatefulWidget {
 
 class _NewPageState extends State<NewPage> {
 
-	PageArguments? _args;
-
-	@override
-	initState(){
-		_args = widget.args;
-	}
+  PageArguments? _args;
+	
+  @override
+  initState(){
+    _args = widget.args;
+  }
 ```
 
 **3. Abrindo a página enviando argumentos**
