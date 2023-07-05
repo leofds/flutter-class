@@ -56,9 +56,17 @@ Relação dos principais Widgets e suas propriedades mais comuns
 - [ListViewBuilder](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/listviewbuilder.md)
 - [Dismissible](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/dismissible.md)
 
-# Builder
+## Builder
 
 - [FutureBuilder](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/futurebuilder.md)
+
+## Progress
+
+[CircularProgressIndicator](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/circularprogressindicator.md)
+
+## Grid
+
+[GridViewBuiler](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/gridviewbuilder.md)
 
 ---
 
