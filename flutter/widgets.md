@@ -36,6 +36,7 @@ Relação dos principais Widgets e suas propriedades mais comuns
 - [IconButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/iconbutton.md)
 - [Switch](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/switch.md)
 - [Checkbox](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/checkbox.md)
+- [DropDownButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/dropdownbutton.md)
 
 ## Image
 
