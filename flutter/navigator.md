@@ -57,6 +57,49 @@ WillPopScope(
 )
 ```
 
+## Passando argumentos para uma rota
+
+**1. Defina os argumentos que deseja passar, crie uma classe para armazená-los**
+
+```dart
+class PageArguments {
+  final String title;
+  final String message;
+
+  PageArguments(this.title, this.message);
+}
+```
+
+**2. Recebendo os argumentos no construtor**
+
+```dart
+class NewPage extends StatefulWidget {
+  NewPage({super.key, this.args});
+  
+  PageArguments? args;
+
+  @override
+  State<NewPage> createState() => _NewPageState();
+}
+
+class _NewPageState extends State<NewPage> {
+
+	PageArguments? _args;
+
+	@override
+	initState(){
+		_args = widget.args;
+	}
+```
+
+**3. Abrindo a página enviando argumentos**
+
+```dart
+Navigator.push(context,
+ MaterialPageRoute(builder: (context) => NewPage(args: PageArguments(title: 'Titulo', message: 'Mensagem')))
+)
+```
+
 # Navegando com rotas nomeadas
 
 > **_ATENÇÃO:_** Não é recomendado utilizar rota nomeada em novos desenvolvimentos!
