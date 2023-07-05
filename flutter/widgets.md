@@ -80,3 +80,7 @@ Relação dos principais Widgets e suas propriedades mais comuns
 
 - [FutureBuilder](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/futurebuilder.md)
 - [StreamBuilder](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/streambuilder.md)
+
+## Sliver
+
+- [SliverAppBar](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/sliverappbar.md)
