@@ -21,7 +21,7 @@ Relação dos principais Widgets e suas propriedades mais comuns
 - [Divider](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/divider.md)
 - [Align](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/align.md)
 - [SingleChildScrollView](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/singlechildscrollview.md)
-- [Stack](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/stack.md)
+- [Stack & Positioned](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/stack_positioned.md)
 
 ## Text
 
