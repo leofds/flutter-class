@@ -24,6 +24,10 @@ Relação dos principais Widgets e suas propriedades mais comuns
 - [SingleChildScrollView](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/singlechildscrollview.md)
 - [Stack & Positioned](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/stack_positioned.md)
 
+Outros widgets e classes úteis para criar uma UI responsiva:
+
+- [AspectRAtio](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/aspect_ratio.md)
+
 ## Text
 
 - [Text](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/text.md)
