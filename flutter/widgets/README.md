@@ -31,6 +31,7 @@ Outros widgets e classes úteis para criar uma UI responsiva:
 - CustomMultiChildLayout
 - [FittedBox](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/fittedbox.md)
 - [FractionallySizedBox](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/fractionallysizedbox.md)
+- [LayoutBuilder](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/layoutbuilder.md)
 
 ## Text
 
