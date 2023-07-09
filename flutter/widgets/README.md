@@ -27,6 +27,7 @@ Relação dos principais Widgets e suas propriedades mais comuns
 Outros widgets e classes úteis para criar uma UI responsiva:
 
 - [AspectRatio](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/aspect_ratio.md)
+- [CustomSingleChildLayout](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/customsinglechildlayout.md)
 
 ## Text
 
