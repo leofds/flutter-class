@@ -2,6 +2,10 @@
 
 # CustomSingleChildLayout
 
+Um widget que adia o layout de seu único filho para um representante.
+
+O representante pode determinar as restrições de layout para o filho e pode decidir onde posicionar o filho. O delegado também pode determinar o tamanho do pai, mas o tamanho do pai não pode depender do tamanho do filho.
+
 ```dart
 final ValueNotifier<Size> _size = ValueNotifier<Size>(const Size(200.0, 100.0));
 ```
