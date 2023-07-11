@@ -5,7 +5,9 @@
 ```dart
 OrientationBuilder(
   builder: (context, orientation) {
-    return <Widget>;    //Use Orientation.portrait para verificar a orientação
+    return orientation == Orientation.portrait
+      ? _buildVerticalLayout()
+      : _buildHorizontalLayout();
   },
 )
 ```
