@@ -19,11 +19,6 @@ Dismissible(
 ```
 
 ```dart
-[Widgets](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/README.md)
-
-# Dismissible
-
-```dart
 ListView.builder(
   itemCount: 10,
   itemBuilder: (contex, index) {
