@@ -17,3 +17,31 @@ Dismissible(
   onDismissed: (direction){}
 )
 ```
+
+```dart
+[Widgets](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/README.md)
+
+# Dismissible
+
+```dart
+ListView.builder(
+  itemCount: 10,
+  itemBuilder: (contex, index) {
+    return Dismissible(
+      direction: DismissDirection.horizontal,    // Há outras opções como DismissDirection.endToStart
+      key: UniqueKey(),                          // ou um valor inteiro ValueKey<int>(index),
+      onDismissed: (direction) {},
+      confirmDismiss: (direction) async => true,
+      background: Container(
+        color: Colors.green,
+      ),
+      secondaryBackground: Container(
+        color: Colors.red,
+      ),
+      child: ListTile(
+        title: Text('Item ${index}'),
+      ),
+    );
+  })
+```
+```
