@@ -18,6 +18,7 @@ Dismissible(
 )
 ```
 
+Duas direções
 ```dart
 ListView.builder(
   itemCount: 10,
