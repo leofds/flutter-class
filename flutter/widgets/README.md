@@ -102,4 +102,4 @@ Outros widgets e classes úteis para criar uma UI responsiva:
 
 ## Outros
 
-- [AbsorvPointer](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/absorb_pointer.md)
+- [AbsorbPointer](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/absorb_pointer.md)
