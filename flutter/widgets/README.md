@@ -98,3 +98,8 @@ Outros widgets e classes úteis para criar uma UI responsiva:
 ## Sliver
 
 - [SliverAppBar](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/sliverappbar.md)
+
+
+## Outros
+
+- [AbsorvPointer](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/absorb_pointer.md)
