@@ -60,10 +60,12 @@ Outros widgets e classes úteis para criar uma UI responsiva:
 - [Icon](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/icon.md)
 - [FadeInImage.memoryNetwork](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/fadeinimage_memorynetwork.md)
 
-## Gesture
+## Gesture & Interation
 
 - [GestureDetector](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/gesturedetector.md)
 - [InkWell](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/inkwell.md)
+
+- [AbsorbPointer](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/absorb_pointer.md)
 
 ## List
 
@@ -100,6 +102,3 @@ Outros widgets e classes úteis para criar uma UI responsiva:
 - [SliverAppBar](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/sliverappbar.md)
 
 
-## Outros
-
-- [AbsorbPointer](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/absorb_pointer.md)
