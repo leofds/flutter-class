@@ -22,6 +22,7 @@ DragTarget<int>(
   ) {
     return Widget();
   },
-  onAccept: (int id) {},
+  onAccept: (int id) {},                 // Função chamada quando o widget solto for aceito
+  onWillAccept: (id) => true,            // Função chamada quando o widget é solto sobre o drag, ele determina se será aceito
 )
 ```
