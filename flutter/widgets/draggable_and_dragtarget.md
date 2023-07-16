@@ -1,0 +1,28 @@
+[Widgets](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/README.md)
+[[doc](https://api.flutter.dev/flutter/widgets/Draggable-class.html)]
+# Draggable & DragTarget
+
+Draggable é um Widget que pode ser arrastado para um DragTarget.
+
+```dart
+Draggable<int>(
+      // Data is the value this Draggable stores.
+      data: brick.id,
+      feedback: Widget(),               // Widget que é arrastado
+      childWhenDragging: Widget(),      // Widget que fica no lugar quando arrastando
+      child: Widget(),                  // Widget quando não há arrasto
+    )
+```
+
+```dart
+DragTarget<int>(
+  builder: (
+    BuildContext context,
+    List<dynamic> accepted,
+    List<dynamic> rejected,
+  ) {
+    return Widget();
+  },
+  onAccept: (int id) {},
+)
+```
