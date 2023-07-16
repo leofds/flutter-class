@@ -11,3 +11,9 @@ SizedBox(
   child: <Widget?>
 )
 ```
+
+```dart
+SizedBox.expand(    // Cria um box que se torna tão largo quanto seu pai permite
+  child: Widget
+)
+```
