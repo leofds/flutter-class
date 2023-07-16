@@ -17,7 +17,7 @@ for (int contador = 0; contador < 3; contador++) {
 }
 ```
 
-## Lista
+## Exemplos
 ```dart
 List<String> nomes = ['Bia', 'Leo', 'Ana', 'Jim'];
 
