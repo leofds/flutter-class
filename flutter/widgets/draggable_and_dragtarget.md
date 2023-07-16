@@ -1,5 +1,5 @@
 [Widgets](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/README.md)
-[[doc](https://api.flutter.dev/flutter/widgets/Draggable-class.html)]
+
 # Draggable & DragTarget
 
 Draggable é um Widget que pode ser arrastado para um DragTarget.
