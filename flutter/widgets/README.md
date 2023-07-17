@@ -63,7 +63,7 @@ Outros widgets e classes úteis para criar uma UI responsiva:
 
 - [GestureDetector](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/gesturedetector.md)
 - [InkWell](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/inkwell.md)
-- [AbsorbPointer & IgnorePointer]([https://github.com/leofds/flutter-class/blob/master/flutter/widgets/absorb_pointer.md](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/absorb_pointer_e_ignore_pointer.md))
+- [AbsorbPointer & IgnorePointer](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/absorb_pointer_e_ignore_pointer.md)
 - [Draggable & DragTarget](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/draggable_and_dragtarget.md)
 - [DraggableScrollableSheet](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/draggable_scrollable_sheet.md)
 
