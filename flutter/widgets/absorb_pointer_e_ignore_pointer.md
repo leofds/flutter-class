@@ -16,3 +16,15 @@ AbsorbPointer(
   ),
 )
 ```
+
+# IgnorePonter
+
+Semelhante ao AbsorbPointer, porém permite que o widget posicionado atrás receba o evento de toque.
+
+```dart
+IgnorePointer(
+  ignoring: true,
+  ignoringSemantics: false,
+  child: Widget()
+)
+```
