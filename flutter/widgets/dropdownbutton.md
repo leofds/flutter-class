@@ -3,12 +3,12 @@
 # DropdownButton
 
 ```dart
-List<MyModel>? _models;
+List<String> _options = ['opção 1', 'opção 2'];
 
-DropdownButton<MyModel>(
+DropdownButton<String>(
   hint: Text("Selecione"),
-  items: _models!.map<DropdownMenuItem<MyObj>>((MyModel model) {
-    return DropdownMenuItem(value: model, child: Text(model.description ?? "null"));
+  items: _models!.map<DropdownMenuItem<String>>((String option) {
+    return DropdownMenuItem(value: option, child: Text('${option}'));
   }).toList(),
   onChanged: (selected) {},
 )
