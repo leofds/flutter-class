@@ -4,7 +4,10 @@
 
 ```dart
 List<String> _options = ['opção 1', 'opção 2'];
+```
 
+usando a função map
+```dart
 DropdownButton<String>(
   hint: Text("Selecione"),
   items: _options.map<DropdownMenuItem<String>>((String item) {
@@ -14,6 +17,7 @@ DropdownButton<String>(
 )
 ```
 
+usando for
 ```dart
 DropdownButton<String>(
   hint: Text("Selecione"),
