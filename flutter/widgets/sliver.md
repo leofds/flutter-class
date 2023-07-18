@@ -1,4 +1,4 @@
-[Widgets](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/README.md
+[Widgets](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/README.md)
 
 # Sliver
 
@@ -23,5 +23,16 @@ CustomScrollView(
       actions: <Widget>[],
     )
   ]
+)
+```
+
+## SliverList
+
+```dart
+SliverList(
+  delegate: SliverChildBuilderDelegate((buildContext, index) {
+    return Widget();
+  },
+  childCount: 10),
 )
 ```
