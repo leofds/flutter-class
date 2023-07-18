@@ -3,9 +3,14 @@
 # Card
 
 ```dart
-GestureDetector(
-  child: Card(
-    child: <Widget?>
+Card(
+  elevation: 10.0,
+  shape: RoundedRectangleBorder(
+    side: BorderSide(
+      color: Colors.greenAccent,
+    ),
+    borderRadius: BorderRadius.circular(20.0), //<-- SEE HERE
   )
+  child: <Widget?>
 )
 ```
