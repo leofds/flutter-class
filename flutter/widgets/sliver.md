@@ -36,3 +36,21 @@ SliverList(
   childCount: 10),
 )
 ```
+
+## SliverGrid
+
+```dart
+SliverGrid(
+  gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+    maxCrossAxisExtent: 200.0,
+    mainAxisSpacing: 10.0,              // espaçamento eixo principal
+    crossAxisSpacing: 10.0,             // espaçamento exo cruzado
+    childAspectRatio: 4.0,              // proporção de tela do filho
+  ),
+  delegate: SliverChildBuilderDelegate((BuildContext context, int index) {
+      return Widget();
+    },
+    childCount: 20,
+  ),
+)
+```
