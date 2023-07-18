@@ -54,3 +54,11 @@ SliverGrid(
   ),
 )
 ```
+
+## SliverToBoxAdapter
+
+```dart
+SliverToBoxAdapter(
+  child: Widget(),
+)
+```
