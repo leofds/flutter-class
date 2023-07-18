@@ -100,6 +100,6 @@ Outros widgets e classes úteis para criar uma UI responsiva:
 
 ## Sliver
 
-- [SliverAppBar](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/sliverappbar.md)
+- [Sliver](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/sliver.md)
 
 
