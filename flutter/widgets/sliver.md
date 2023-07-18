@@ -14,6 +14,8 @@ CustomScrollView(
       floating: false,       // Se true, exibe a barra de rolagem novamente nomovimento contrário
       snap: false,           // Se true, ativa um efeito de exibição da barra
       expandedHeight: 150.0,
+      backgroundColor: Colors.blue,
+      elevation: 0.0,
       flexibleSpace: const FlexibleSpaceBar(
         title: Text('Sliver Title'),
         background: FlutterLogo(),
