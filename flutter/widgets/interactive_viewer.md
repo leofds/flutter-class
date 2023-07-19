@@ -5,6 +5,8 @@
 Um Widget que permite pan e zoom no seu filho. Utilizado quando o filho não cabe na área disponível.
 
 ```dart
+final TransformationController _controller = TransformationController();
+
 Container(
   child: InteractiveViewer(
     maxScale: 100,                            // Scala máxia de zoom
@@ -16,4 +18,11 @@ Container(
     child: Image.asset('assets/images/planet.jpg'),
   ),
 )
+```
+
+restaurando o zoom e pan
+```dart
+if (_controller.value != Matrix4.identity()) {
+  _controller.value = Matrix4.identity();
+}
 ```
