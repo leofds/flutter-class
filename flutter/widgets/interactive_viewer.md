@@ -7,6 +7,7 @@ Um Widget que permite pan e zoom no seu filho. Utilizado quando o filho não cab
 ```dart
 Container(
   child: InteractiveViewer(
+    maxScale: 100,                            // Scala máxia de zoom
     constrained: false,                       // Permite o widget se dimensionar por si mesmo
     scaleEnabled: false,                      // Limita o movimento
     boundaryMargin: EdgeInsets.all(10),       // Margin
