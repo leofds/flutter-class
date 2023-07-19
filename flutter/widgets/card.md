@@ -4,6 +4,7 @@
 
 ```dart
 Card(
+  clipBehavior: Clip.antiAlias,
   elevation: 10.0,
   shape: RoundedRectangleBorder(
     side: BorderSide(
