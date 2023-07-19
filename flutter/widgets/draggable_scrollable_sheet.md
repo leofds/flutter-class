@@ -8,7 +8,13 @@ DraggableScrollableSheet(
   minChildSize: 0.1,
   maxChildSize: 0.8,
   builder:(BuildContext context, ScrollController scrollController) {
-    return Widget();
+    return ListView.builder(
+      controller: scrollController,
+      itemCount: 10,
+    	itemBuilder: (BuildContext context, int index) {
+        return Widget()
+      }
+    );
   }
 )
 ```
