@@ -18,3 +18,12 @@ Stack(
   ],
 )
 ```
+
+```dart
+Positioned.fill(
+  child: Image(
+    image: AssetImage('assets/placeholder.png'),
+    fit : BoxFit.fill,
+ ),
+),
+```
