@@ -59,6 +59,7 @@ Outros widgets e classes úteis para criar uma UI responsiva:
 - [CircleAvatar](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/circleavatar.md)
 - [Icon](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/icon.md)
 - [FadeInImage.memoryNetwork](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/fadeinimage_memorynetwork.md)
+- [ColorFiltered](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/color_filtered.md)
 
 ## Gesture & Interation
 
