@@ -1,4 +1,4 @@
-[flutter-class](https://github.com/leofds/flutter-class/tree/master/README/md)
+[flutter-class](https://github.com/leofds/flutter-class/tree/master/README.md)
 
 # Flutter
 
