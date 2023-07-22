@@ -10,3 +10,12 @@ Slider(
   onChanged: (double value) {},
 )
 ```
+
+```dart
+Slider.adaptive(
+  value: 0,
+  onChanged: (value) {
+
+  },
+)
+```
