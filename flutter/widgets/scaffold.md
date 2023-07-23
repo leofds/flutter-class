@@ -27,7 +27,7 @@ Scaffold(
 )
 ```
 
-## AppBar transparente
+### AppBar transparente
 ```dart
 Scaffold(
   appBar: AppBar(
