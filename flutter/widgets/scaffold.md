@@ -26,3 +26,15 @@ Scaffold(
   body: <Widget?>,
 )
 ```
+
+## AppBar transparente
+```dart
+Scaffold(
+  appBar: AppBar(
+    title: Text('Transparente'),
+    backgroundColor: Colors.transparent,
+    elevation: 0,
+  ),
+  extendBodyBehindAppBar: true,
+)
+```
