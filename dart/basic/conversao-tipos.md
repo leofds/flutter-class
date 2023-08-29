@@ -13,6 +13,10 @@ int numero1 = int.parse('10');
 double numero2 = double.parse('1.27');
 ```
 
+```dart
+double numero2 = double.parse('1.27');    // resultado é null
+```
+
 ## num -> String 
 
 ```dart
