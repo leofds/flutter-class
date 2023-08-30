@@ -64,3 +64,23 @@ print(valor.round());     // arredonda para o mais próximo
 print(valor.ceil());      // arredodna pra cima
 print(valor.floor());     // arredonda para baixo
 ```
+
+## Funções de String
+
+```dart
+String mensagem = 'Dart é Legal';
+
+print(mensagem.length);           //12
+print(mensagem.toUpperCase());    //DART É LEGAL
+print(mensagem.toLowerCase());    //dart é legal
+print(mensagem.contains('A'));    //false 
+print(mensagem.substring(5));     //é Legal
+print(mensagem.substring(1,3));   //ar
+print(mensagem[9]);               //g
+print(mensagem.indexOf('a'));     //1
+print(mensagem.lastIndexOf('a')); //10
+print(mensagem.split(' '));       //[Dart, é, Legal]
+print('  hello  '.trim());        //hello
+print(mensagem.replaceAll('a', 'AAAA')); ////DAAAArt é LegAAAAl
+print(mensagem.replaceFirst('a', 'A')); //DArt é Legal
+```
