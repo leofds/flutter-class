@@ -28,7 +28,26 @@ flutter:
     - assets/images/
 
   fonts:
-    - family: MinhasFontes
+    - family: MinhaFonte
       fonts:
         - asset: assets/fonts/minha_fonte.ttf
+```
+
+## 3. Como utilizar
+
+Utilize o [Widget Image](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/image.md) para exibir uma imagem.
+
+```dart
+Image.asset('assets/images/fundo.png'),
+```
+
+Informe o nome da família da font no Widget Text para alterar a fonte.
+
+```dart
+Text(
+  'Olá',
+  style: TextStyle(
+    fontFamily: 'MinhaFonte'
+  ),
+)
 ```
