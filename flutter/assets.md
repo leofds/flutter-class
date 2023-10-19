@@ -8,6 +8,20 @@ Assets são os recursos armazenados no App como imagens, fontes, arquivos em ger
 
 Na raiz do projeto crie o diretório assets. Você pode incluir subdiretórios para separar imagens de fonts por exemplo.
 
-![image](https://github.com/leofds/flutter-class/assets/5174326/0763c013-ebdf-4fe6-b18e-f476aeb30155)
+![image](https://github.com/leofds/flutter-class/assets/5174326/68929342-6538-40c8-8bf3-bb22898f5e34)
 
 ## 2. Atualize o pubspec
+
+Edite o arquivo pubspec.yaml na raiz do projeto, adicionando o diretório assets criado.
+
+```yaml
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+```
