@@ -14,6 +14,8 @@ Na raiz do projeto crie o diretório assets. Você pode incluir subdiretórios p
 
 Edite o arquivo pubspec.yaml na raiz do projeto, adicionando o diretório assets criado.
 
+**Cuidado!** Os espaços no início de cada linha (identação) no arquivo .yaml são importantes para determinar a relação das pripriedades. 
+
 ```yaml
 flutter:
 
@@ -24,4 +26,9 @@ flutter:
 
   assets:
     - assets/images/
+
+  fonts:
+    - family: MinhasFontes
+      fonts:
+        - asset: assets/fonts/minha_fonte.ttf
 ```
