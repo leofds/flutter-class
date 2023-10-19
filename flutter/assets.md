@@ -35,11 +35,15 @@ flutter:
 
 ## 3. Como utilizar
 
+### Imagem
+
 Utilize o [Widget Image](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/image.md) para exibir uma imagem.
 
 ```dart
 Image.asset('assets/images/fundo.png'),
 ```
+
+### Fonte
 
 Informe o nome da família da font no Widget Text para alterar a fonte.
 
