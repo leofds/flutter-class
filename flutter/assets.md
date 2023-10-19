@@ -12,9 +12,9 @@ Na raiz do projeto crie o diretório assets. Você pode incluir subdiretórios p
 
 ## 2. Atualize o pubspec
 
-Edite o arquivo pubspec.yaml na raiz do projeto, adicionando o diretório assets criado.
+Edite o arquivo pubspec.yaml na raiz do projeto, adicionando o diretório assets criado para imagens e fontes.
 
-**Cuidado!** Os espaços no início de cada linha (identação) no arquivo .yaml são importantes para determinar a relação das pripriedades. 
+**Cuidado!** A identação do arquivo .yaml é importante para determinar a relação entre as pripriedades. 
 
 ```yaml
 flutter:
