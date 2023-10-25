@@ -28,7 +28,7 @@
 - [Matriz](https://github.com/leofds/flutter-class/blob/master/dart/basic/matriz.md)
 - [Mapa](https://github.com/leofds/flutter-class/blob/master/dart/basic/mapa.md)
 - [Null-safety (Null assertion (!) e Nul-aware (??))](https://github.com/leofds/flutter-class/blob/master/dart/basic/null-safety.md)
-- [Operador teste/conversão de tipo](https://github.com/leofds/flutter-class/blob/master/dart/basic/operador-teste-tipo.md)
+- [Operador teste/conversão de tipo (is, as)](https://github.com/leofds/flutter-class/blob/master/dart/basic/operador-teste-tipo.md)
 - [Operadores bit a bit](https://github.com/leofds/flutter-class/blob/master/dart/basic/operadores-bit-a-bit.md)
 - [Enumerador](https://github.com/leofds/flutter-class/blob/master/dart/basic/enum.dart)
 
