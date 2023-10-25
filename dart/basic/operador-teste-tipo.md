@@ -11,5 +11,5 @@ import 'package:lib2/lib2.dart' as lib2;	// Prefixo em uma Library
 
 if(nome is String){}				// true se o tipo for String
 
-if(nome !is double){}				// true se o tipo não for double
+if(nome is! double){}				// true se o tipo não for double
 ```
