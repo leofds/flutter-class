@@ -209,7 +209,7 @@ print(value); // [4, 5, 6, 7, 8, 9, 10]
 
 ### singleWhere
 
-Retorna o elemento que corresponder a condição. Um exceção ocorrerá se o elemento estiver diplicado na lista. Nesse caso firstWhere pode ser utilizado.
+Retorna o elemento que corresponder a condição. Uma exceção ocorrerá se o elemento estiver duplicado na lista. Nesse caso firstWhere pode ser utilizado.
 
 ```dart
 List myList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
