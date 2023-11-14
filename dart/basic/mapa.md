@@ -31,6 +31,14 @@ print(valores.containsValue(120.0));  	// Verifica se o valor existe no mapa
 print(valores.length);  				// Quantidade de conjnto chave-valor no mapa
 ```
 
+## Percorrendo os items do mapa
+
+```dart
+valores.forEach((key, value) {
+  print('chave=$key, valor=$value');
+});
+```
+
 ## Converter mapa em lista
 
 ```dart
@@ -42,14 +50,4 @@ Map<String, double> valores = {
 
 List<String> listaDescricao = valores.keys.toList();
 List<double> listaValores = valores.values.toList();
-```
-
-```dart
-List<String> listaDescricao = [];
-List<String> listaValores = [];
-
-valores.forEach((key, value) {
-  listaDescricao.add(key);
-  listaValores.add(value);
-});
 ```
