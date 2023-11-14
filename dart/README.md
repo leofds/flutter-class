@@ -26,6 +26,7 @@
 - [Função anônima](https://github.com/leofds/flutter-class/blob/master/dart/basic/funcao-anonima.md)
 - [Lista (Vetor/Array)](https://github.com/leofds/flutter-class/blob/master/dart/basic/lista.md)
 - [Matriz](https://github.com/leofds/flutter-class/blob/master/dart/basic/matriz.md)
+- [Set](https://github.com/leofds/flutter-class/blob/master/dart/basic/set.md)
 - [Mapa](https://github.com/leofds/flutter-class/blob/master/dart/basic/mapa.md)
 - [Null-safety (Null assertion (!) e Nul-aware (??))](https://github.com/leofds/flutter-class/blob/master/dart/basic/null-safety.md)
 - [Operador teste/conversão de tipo (is, as)](https://github.com/leofds/flutter-class/blob/master/dart/basic/operador-teste-tipo.md)
