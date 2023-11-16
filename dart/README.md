@@ -56,7 +56,8 @@
 - [Factory](https://github.com/leofds/flutter-class/blob/master/dart/oo/factory.md)
 - [Exceção](https://github.com/leofds/flutter-class/blob/master/dart/oo/excecao.md)
 - [Generics](https://github.com/leofds/flutter-class/blob/master/dart/oo/generics.md)
-- [Código Assíncrono (async & await)](https://github.com/leofds/flutter-class/blob/master/dart/oo/codigo_assincrono.md)
+- [Código Assíncrono (Future, async, await)](https://github.com/leofds/flutter-class/blob/master/dart/oo/codigo_assincrono.md)
+- [Código Assíncrono (Streams)](https://github.com/leofds/flutter-class/blob/master/dart/files/streams.md)
 - [Generators](https://github.com/leofds/flutter-class/blob/master/dart/oo/generators.md)
 - [Isolate](https://github.com/leofds/flutter-class/blob/master/dart/oo/isolate.md)
 
