@@ -2,17 +2,19 @@
 
 # Generators
 
-Dart Generator é uma função que nos permite produzir uma sequência de valores **sob demanda**, ou seja, são gerados quando tentarmos iterar sobre os iteradores.\
+Dart Generator é uma função que nos permite produzir uma sequência de valores **sob demanda**, ou seja, são gerados quando tentarmos iterar sobre os iteradores.
 
 São dois tipos de geradores: **Síncronos , Assíncronos**
 
 ### keywords:
 
-**yeld** retorna um valor único para a sequência de cada vez. \
-**sync\*** usado para declarar a função do gerador síncrono. Indica que retorna um valor quando tentamos iterar sobre a função. \
+**sync\*** usado para declarar a função do gerador síncrono. Indica que retorna um valor quando tentamos iterar sobre a função.
 **async\*** usado para declarar a função o gerador assíncrono. Indica que retorna o objeto de fluxo.
 
-**Iterable** coleção de elementos que podem ser acessador sequencialmente. \
+**yeld** retorna um valor único para a sequência de cada vez.
+**yield\*** utilizado em generators recursivos para melhorar a performance.
+
+**Iterable** coleção de elementos que podem ser acessador sequencialmente.
 **Stream** é como um iterable assíncrono.
 
 ## Geradores síncronos
