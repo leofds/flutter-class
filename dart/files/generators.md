@@ -57,12 +57,7 @@ void main(List<String> args) {
   values.forEach(print);
   print('FIM');
 }
-// resultado:
-FIM
-4
-3
-2
-1
+// resultado: FIM 4 3 2 1
 ```
 
 ```dart
@@ -71,12 +66,7 @@ void main(List<String> args) async {
   await values.forEach(print);
   print('FIM');
 }
-// resultado:
-4
-3
-2
-1
-FIM
+// resultado: 4 3 2 1 FIM
 ```
 
 Gerador recursivo
