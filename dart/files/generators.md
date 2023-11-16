@@ -14,7 +14,7 @@ São dois tipos de geradores: **Síncronos , Assíncronos**
 **yeld** retorna um valor único para a sequência de cada vez.\
 **yield\*** utilizado em generators recursivos para melhorar a performance.
 
-**Iterable** coleção de elementos que podem ser acessador sequencialmente.\
+**Iterable** coleção de elementos que podem ser acessador sequencialmente. \
 **Stream** é como um iterable assíncrono.
 
 ## Geradores síncronos
