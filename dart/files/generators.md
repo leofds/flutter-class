@@ -9,7 +9,7 @@ São dois tipos de geradores: **Síncronos , Assíncronos**
 ### keywords:
 
 **sync\*** usado para declarar a função do gerador síncrono. Indica que retorna um valor quando tentamos iterar sobre a função.\
-**async\*** usado para declarar a função o gerador assíncrono. Indica que retorna o objeto de fluxo.
+**async\*** usado para declarar a função do gerador assíncrono. Indica que retorna o objeto de fluxo.
 
 **yeld** retorna um valor único para a sequência de cada vez.\
 **yield\*** utilizado em generators recursivos para melhorar a performance.
