@@ -49,10 +49,44 @@ Stream<int> asyncOddMumber(int num) async* {
 }
 ```
 
+Utilizando a função
+
 ```dart
 void main(List<String> args) {
-  Stream<int> v = asyncOddMumber(4);
+  Stream<int> values = asyncOddMumber(4);
   values.forEach(print);
   print('FIM');
+}
+// resultado:
+FIM
+4
+3
+2
+1
+```
+
+```dart
+void main(List<String> args) async {
+  Stream<int> values = asyncOddMumber(4);
+  await values.forEach(print);
+  print('FIM');
+}
+// resultado:
+4
+3
+2
+1
+FIM
+```
+
+Gerador recursivo
+
+```dart
+Iterable<int> oddMumber(int num) sync* {
+  int k = num;
+  while (k > 0) {
+    yield k;
+    yield* oddMumber(k-1);
+  }
 }
 ```
