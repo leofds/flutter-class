@@ -15,6 +15,7 @@ MaterialApp(
   home: <Widget?>,
 
   theme: ThemeData(
+    useMaterial3: false,
     primaryColor: Colors.blue,
     iconTheme: IconThemeData(
       color: Colors.blue
