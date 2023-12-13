@@ -15,7 +15,7 @@ ListView.builder(
 ```
 
 ```dart
-istView.separated(
+ListView.separated(
   itemCount: _list.length,
   itemBuilder: (context, item) {
     return <Widget>;
