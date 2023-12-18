@@ -1,6 +1,6 @@
 [Dart](https://github.com/leofds/flutter-class/blob/master/dart/README.md)
 
-# Modificador de classe: Interface
+# Classe Interface
 
 Uma classe que pode ser implementada mas não extendida.
 
