@@ -171,7 +171,10 @@ UserDao? userDao;
 
 LocalDatabase.initDatabase('my_database.db').then((db) {
   userDao = UserDaoDb(db);
-  userDao?.save(User(name: 'Leo', email: 'leonardo_.fernandes@hotmail.com'));
-  userDao?.findAll().then(print);
 });
+
+//...
+
+userDao?.save(User(name: 'Leo', email: 'leonardo_.fernandes@hotmail.com'));
+userDao?.findAll().then(print);
 ```
