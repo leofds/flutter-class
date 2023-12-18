@@ -60,7 +60,7 @@ Implemente a classe concreta
 
 ```
 
-## 5. Iniciando o Banco de Dados
+## 5. Classe de criação/migração do Banco de Dados
 
 ```dart
 import 'package:sqflite/sqflite.dart';
