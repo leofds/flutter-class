@@ -15,16 +15,29 @@ flutter pub add sqflite path
 Esta classe basicamente representa uma tabela do banco, onde os atributos são as colunas do banco.
 
 ```dart
-class Pessoa {
-  final int? id;
-  late String nome;
+class User {
+  int? id;
+  late String name;
   late String email;
 
-  Pessoa({
-    this.id,
-    required this.nome,
-    required this.email
-  });
+  User({this.id, required this.name, required this.email});
+
+  Map<String, dynamic> toMap() {
+    return {'id': id, 'name': name, 'email': email};
+  }
+
+  User fromMap(Map<String, dynamic> pessoa) {
+    return User(
+      id: pessoa['id'],
+      name: pessoa['name'],
+      email: pessoa['email'],
+    );
+  }
+
+  @override
+  String toString() {
+    return 'User(id=$id, name=$name, email=$email)';
+  }
 }
 ```
 
@@ -44,12 +57,12 @@ void main() {
 Defina a interface
 
 ```dart
-abstract class PessoaBao {
+abstract class UserDao {
 
-  Future<Pessoa> salvar(Pessoa pessoa);
-  Future<List<Pessoa>> buscarTodos();
-  Future<void> remover(Pessoa pessoa);
-  Future<void> atualizar(Pessoa pessoa);
+  Future<User> save(User user);
+  Future<List<User>> findAll();
+  Future<void> remove(User user);
+  Future<void> update(User user);
 
 }
 ```
@@ -70,11 +83,11 @@ class LocalDatabase {
 
   static final Map<int, List<String>> _migrationScripts = {
     1:  [
-      'CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT,name TEXT)',
-      'ALTER TABLE users ADD COLUMN email TEXT'
+      'CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT)',
+      'CREATE TABLE history (id INTEGER PRIMARY KEY AUTOINCREMENT, log TEXT)',
     ],
     2:  [
-      'ALTER TABLE users ADD COLUMN phone TEXT'
+      'ALTER TABLE users ADD COLUMN email TEXT'
     ]
   };
 
