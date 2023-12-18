@@ -21,6 +21,18 @@ class User {
   late String email;
 
   User({this.id, required this.name, required this.email});
+}
+```
+
+Adicione os métodos de conversão de mapa.
+
+```dart
+class User {
+  int? id;
+  late String name;
+  late String email;
+
+  User({this.id, required this.name, required this.email});
 
   Map<String, dynamic> toMap() {
     return {'id': id, 'name': name, 'email': email};
