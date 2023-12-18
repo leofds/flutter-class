@@ -82,7 +82,45 @@ abstract class UserDao {
 Implemente a classe concreta
 
 ```dart
+class UserDaoDb implements UserDao {
 
+  final _table = 'users';
+
+  final Database db;
+
+  UserDaoDb(this.db);
+
+  @override
+  Future<User> save(User user) async {
+    user.id = await db.insert(_table, user.toMap());
+    return user;
+  }
+
+  @override
+  Future<List<User>> findAll() async {
+    final result = await db.query(_table);
+    return result.map((item) => User.fromMap(item)).toList();
+  }
+
+  @override
+  Future<void> remove(User user) async {
+    await db.delete(
+      _table,
+      where: 'id = ?',
+      whereArgs: [user.id],
+    );
+  }
+
+  @override
+  Future<void> update(User user) async {
+    await db.update(
+      _table,
+      user.toMap(),
+      where: 'id = ?',
+      whereArgs: [user.id],
+    );
+  }
+}
 ```
 
 ## 5. Classe de criação/migração do Banco de Dados
@@ -124,4 +162,16 @@ class LocalDatabase {
     );
   }
 }
+```
+
+## 6. Utilizando o Banco de Dados
+
+```dart
+UserDao? userDao;
+
+LocalDatabase.initDatabase('my_database.db').then((db) {
+  userDao = UserDaoDb(db);
+  userDao?.save(User(name: 'Leo', email: 'leonardo_.fernandes@hotmail.com'));
+  userDao?.findAll().then(print);
+});
 ```
