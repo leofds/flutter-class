@@ -41,6 +41,62 @@ void main() {
 
 ## 4. Criando o DAO (Data Access Object)
 
+Defina a interface
 
+```dart
+abstract class PessoaBao {
 
+  Future<Pessoa> salvar(Pessoa pessoa);
+  Future<List<Pessoa>> buscarTodos();
+  Future<void> remover(Pessoa pessoa);
+  Future<void> atualizar(Pessoa pessoa);
 
+}
+```
+
+Implemente a classe concreta
+
+```dart
+
+```
+
+## 5. Iniciando o Banco de Dados
+
+```dart
+import 'package:sqflite/sqflite.dart';
+import 'package:path/path.dart';
+
+class LocalDatabase {
+
+  static final Map<int, List<String>> _migrationScripts = {
+    1:  [
+      'CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT,name TEXT)',
+      'ALTER TABLE users ADD COLUMN email TEXT'
+    ],
+    2:  [
+      'ALTER TABLE users ADD COLUMN phone TEXT'
+    ]
+  };
+
+  static Future<Database> initDatabase(String fname) async {
+    return await openDatabase(
+      join(await getDatabasesPath(), fname),
+      version: _migrationScripts.length,
+      onCreate: (db, version) async {
+        for(final scripts in _migrationScripts.values) {
+          for(String sql in scripts){
+            await db.execute(sql);
+          }
+        }
+      },
+      onUpgrade: (db, oldVersion, newVersion) async {
+        for (int i = oldVersion + 1; i <= newVersion; i++) {
+          for(String sql in (_migrationScripts[i] as List<String>)) {
+            await db.execute(sql);
+          }
+        }
+      }
+    );
+  }
+}
+```
