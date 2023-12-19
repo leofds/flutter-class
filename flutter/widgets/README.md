@@ -53,6 +53,7 @@ Outros widgets e classes úteis para criar uma UI responsiva:
 - [Switch](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/switch.md)
 - [Checkbox](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/checkbox.md)
 - [DropDownButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/dropdownbutton.md)
+- [PopupMenuButton](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/popupmenubutton.md)
 - [Slider](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/slider.md)
 
 ## Image
