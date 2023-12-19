@@ -29,7 +29,6 @@ PopupMenuButton(
 enum MyItem { itemEdit, itemDelete }
 
 PopupMenuButton(
-  initialValue: 1,          // Valor inicial é opcional
   onSelected: (MyItem value) {
     print(value);
   },
