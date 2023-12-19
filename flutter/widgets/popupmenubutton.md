@@ -5,7 +5,7 @@
 **Exemplo 1**
 
 ```dart
-PopupMenuButton(
+PopupMenuButton<int>(
   initialValue: 1,          // Valor inicial é opcional
   onSelected: (int value) {
     print(value);
@@ -28,7 +28,7 @@ PopupMenuButton(
 ```dart
 enum MyItem { itemEdit, itemDelete }
 
-PopupMenuButton(
+PopupMenuButton<MyItem>(
   onSelected: (MyItem value) {
     print(value);
   },
