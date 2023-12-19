@@ -132,11 +132,11 @@ import 'package:path/path.dart';
 class LocalDatabase {
 
   static final Map<int, List<String>> _migrationScripts = {
-    1:  [
+    1: [
       'CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT)',
       'CREATE TABLE history (id INTEGER PRIMARY KEY AUTOINCREMENT, log TEXT)',
     ],
-    2:  [
+    2: [
       'ALTER TABLE users ADD COLUMN email TEXT'
     ]
   };
