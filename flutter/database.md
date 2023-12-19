@@ -146,8 +146,8 @@ class LocalDatabase {
       join(await getDatabasesPath(), fname),
       version: _migrationScripts.length,
       onCreate: (db, version) async {
-        for(final scripts in _migrationScripts.values) {
-          for(String sql in scripts){
+        for(final script in _migrationScripts.values) {
+          for(String sql in script){
             await db.execute(sql);
           }
         }
