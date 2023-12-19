@@ -8,7 +8,7 @@
 PopupMenuButton<int>(
   initialValue: 1,          // Valor inicial é opcional
   onSelected: (int value) {
-    print(value);
+    //..
   },
   itemBuilder: (BuildContext context) => <PopupMenuEntry<int>>[
     const PopupMenuItem<int>(
@@ -30,7 +30,7 @@ enum MyItem { itemEdit, itemDelete }
 
 PopupMenuButton<MyItem>(
   onSelected: (MyItem value) {
-    print(value);
+    //..
   },
   itemBuilder: (BuildContext context) => <PopupMenuEntry<MyItem>>[
     const PopupMenuItem<MyItem>(
