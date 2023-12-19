@@ -2,6 +2,9 @@
 
 # Shared Preferences
 
+Armazenamento em disco de valores em formato de mapa, ideal para salvar preferências do App.
+Não deve conter informações críticas ou sensíveis.
+
 ## 1. Adicione a biblioteca do pacote
 
 ```dart
