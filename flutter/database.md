@@ -38,7 +38,7 @@ class User {
     return {'id': id, 'name': name, 'email': email};
   }
 
-  User fromMap(Map<String, dynamic> pessoa) {
+  static User fromMap(Map<String, dynamic> pessoa) {
     return User(
       id: pessoa['id'],
       name: pessoa['name'],
