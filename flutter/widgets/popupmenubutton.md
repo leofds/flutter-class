@@ -2,6 +2,8 @@
 
 # PopupMenuButton
 
+**Exemplo 1**
+
 ```dart
 PopupMenuButton(
   initialValue: 1,          // Valor inicial é opcional
@@ -21,7 +23,7 @@ PopupMenuButton(
 ),
 ```
 
-Utilizando enum e ListTile
+**Exemplo 2**
 
 ```dart
 enum MyItem { itemEdit, itemDelete }
