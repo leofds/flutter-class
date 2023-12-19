@@ -33,7 +33,7 @@ PopupMenuButton(
   onSelected: (MyItem value) {
     print(value);
   },
-  itemBuilder: (BuildContext context) => <PopupMenuEntry<MenuMyItemOptionItem>>[
+  itemBuilder: (BuildContext context) => <PopupMenuEntry<MyItem>>[
     const PopupMenuItem<MyItem>(
       value: MyItem.itemEdit,
       child: ListTile(
