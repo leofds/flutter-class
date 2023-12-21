@@ -3,7 +3,6 @@
 # Flutter
 
 - [Widgets](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/README.md)
-- [Animação](https://github.com/leofds/flutter-class/blob/master/flutter/animation/README.md)
 
 ---
 - [Cores](https://github.com/leofds/flutter-class/blob/master/flutter/colors.md)
@@ -13,3 +12,4 @@
 - [Assets](https://github.com/leofds/flutter-class/blob/master/flutter/assets.md)
 - [Banco de Dados](https://github.com/leofds/flutter-class/blob/master/flutter/database.md)
 - [Shared Preferences](https://github.com/leofds/flutter-class/blob/master/flutter/shared_preferences.md)
+- [Animação](https://github.com/leofds/flutter-class/blob/master/flutter/animation/README.md)
