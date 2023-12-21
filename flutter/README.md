@@ -3,6 +3,7 @@
 # Flutter
 
 - [Widgets](https://github.com/leofds/flutter-class/blob/master/flutter/widgets/README.md)
+- [Animação](https://github.com/leofds/flutter-class/blob/master/flutter/animation/README.md)
 
 ---
 - [Cores](https://github.com/leofds/flutter-class/blob/master/flutter/colors.md)
