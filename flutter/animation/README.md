@@ -91,10 +91,12 @@ TweenAnimationBuilder(
 )
 ```
 
-O Objeto `Teen` permite especificar o range de valores.
+O Objeto `tween` permite especificar o range de valores.
 
 ```dart
-tween: ColorTween(begin: Colors.white, end: Colors.blue),
+tween: Tween(begin: 0.0, end: 1.0)
+tween: ColorTween(begin: Colors.white, end: Colors.blue)
+tween: Tween<AlignmentGeometry>(begin: Alignment.bottomCenter, end: Alignment.topCenter)
 ```
 
 O parâmetro `builder` permite especificar a função que gerará um Widget em um momento do tempo.
