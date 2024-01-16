@@ -4,6 +4,8 @@
 
 Existem diferentes abordagens para criar animações em Flutter.
 
+[1. Implicit Animations](#1.-Implicit-Animations)
+
 ## 1. Implicit Animations (animações básicas)
 
 Flutter possui vário Widgets que versões animadas de Widgets comuns.
@@ -190,6 +192,4 @@ class FooTransition extends AnimatedWidget {
   }
 }
 ```
-
-## 5. Bare Metal Explicit Animations
 
