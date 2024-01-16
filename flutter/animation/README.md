@@ -105,6 +105,46 @@ Implicit Animations e TweenAnimationBuilder são animações que vão em uma dir
 
 Explicit Animations são Widgets que herdan AnimatedWidget como: `ScaleTransition`, `DecoratedBoxTransition`, `SizeTransition`, `PositionedTransition` e mais.
 
+Agora obtemos um pouco mais de controle sobre a animação, iniciando, parando, repetindo e revertendo o sentido da animação. Isso é possível através do `AnimationController`.
+
+```dart
+late AnimationController _animationController;
+
+@override
+void initState() {
+  super.initState();
+  _animationController = AnimationController(
+    duration: Duration(seconds: 15),
+    vsync: this,
+  );
+  _animationController.repeat();
+}
+
+@override
+void dispose() {
+  _animationController.dispose();
+  super.dispose();
+}
+```
+
+```dart
+if(_animationController.isAnimating){
+  _animationController.stop();
+}else{
+  _animationController.repeat();
+}
+```
+
+```dart
+RotationTransition(
+  alignment: Alignment.center,
+  child: _getChildWidget(),
+  turns: _animationController,
+),
+```
+
+A propriedade `vsync` do  `AnimationController` espera por um TickerProvider fornecido pelo Mixin `SingleTickerProviderStateMixin`. Isto é necessário para sincronismo da taxa a atualização da animação. Ele permite que a animação ocorra somente se o widget estiver visível.
+
 ## 4. AnimatedBuilder/AnimatedWidget
 
 ## 5. Bare Metal Explicit Animations
