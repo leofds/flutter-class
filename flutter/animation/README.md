@@ -11,7 +11,7 @@ Existem diferentes abordagens para criar animações em Flutter.
 
 ## 1. Implicit Animations (animações básicas)
 
-Flutter possui vário Widgets que versões animadas de Widgets comuns.
+Flutter possui vários Widgets que são versões animadas de Widgets comuns.
 
 **Exemplo:**
 
