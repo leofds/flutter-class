@@ -25,7 +25,7 @@ Estes Widgets automaticamente animam as alterações em suas propiedades. Quando
 
 Este são os **Implicity Animation Widgtes**, a maneira mais simples de adicionar animação sem complexidade.
 
-### Comtrolando a animação
+### Controlando a animação
 
 Estes Widgets animados possuem duas propriedades que precisamos definir para controlar o comportamento da animação, **duration** e **curve**.
 
