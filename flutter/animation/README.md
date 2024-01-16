@@ -4,7 +4,10 @@
 
 Existem diferentes abordagens para criar animações em Flutter.
 
-[1. Implicit Animations](#1.-Implicit-Animations)
+- [1. Implicit Animations](#1.-Implicit-Animations)
+- [2. TweenAnimationBuilder](#2.-TweenAnimationBuilder)
+- [3. Built-in Explicit Animations](#3.-Built-in-Explicit-Animations)
+- [4. AnimatedBuilder/AnimatedWidget](#4.-AnimatedBuilder/AnimatedWidget)
 
 ## 1. Implicit Animations (animações básicas)
 
