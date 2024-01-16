@@ -145,6 +145,12 @@ RotationTransition(
 
 A propriedade `vsync` do  `AnimationController` espera por um TickerProvider fornecido pelo Mixin `SingleTickerProviderStateMixin`. Isto é necessário para sincronismo da taxa a atualização da animação. Ele permite que a animação ocorra somente se o widget estiver visível.
 
+```dart
+class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
+  ...
+}
+```
+
 ## 4. AnimatedBuilder/AnimatedWidget
 
 ## 5. Bare Metal Explicit Animations
