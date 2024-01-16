@@ -12,5 +12,6 @@
 - [Assets](https://github.com/leofds/flutter-class/blob/master/flutter/assets.md)
 - [Banco de Dados](https://github.com/leofds/flutter-class/blob/master/flutter/database.md)
 - [Shared Preferences](https://github.com/leofds/flutter-class/blob/master/flutter/shared_preferences.md)
-- [Animation](https://github.com/leofds/flutter-class/blob/master/flutter/animation/README.md)
 - [MediaQuery](https://github.com/leofds/flutter-class/blob/master/flutter/media_query.md)
+- [Animation](https://github.com/leofds/flutter-class/blob/master/flutter/animation/README.md)
+
