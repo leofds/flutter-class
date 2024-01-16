@@ -76,7 +76,28 @@ class SineCurve extends Curve {
 
 ## 2. TweenAnimationBuilder (Customizando Implicit Animations)
 
-Se você deseja criar animações básicas mas não há nenhuma das Implicity Animations bult-in é o que você procura, você pode utilizar o TweenAnimationBuilder para criar a animação com Widgets que não são animados.
+Se você deseja criar animações básicas mas nenhuma das Implicity Animations bult-in é o que você procura, você pode utilizar o TweenAnimationBuilder para criar a animação com Widgets que não são animados.
+
+```dart
+TweenAnimationBuilder(
+  tween: Tween(begin: 0.0, end: 1.0),
+  duration: Duration(seconds: 1),
+  curve: Curves.easeInOutCirc,
+  child: Text('Hello'),
+  builder: (context, value, child) {
+    return Transform.translate(
+        offset: Offset(0.0, 100 * value), child: child);
+  },
+)
+```
+
+O Objeto `Teen` permite especificar o range de valores.
+
+```dart
+tween: ColorTween(begin: Colors.white, end: Colors.blue),
+```
+
+O parâmetro `builder` permite especificar a função que gerará um Widget em um momento do tempo.
 
 ## 3. Built-in explicit animations
 
