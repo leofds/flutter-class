@@ -31,8 +31,9 @@ Estes Widgets animados possuem duas propriedades que precisamos definir para con
 
 ```dart
 AnimatedContainer(
-  width: _bigger ? 100 : 500,
-  child: Image.asset('assets/star.png'),
+  width: _lado ? 100 : 200,
+  height: _lado ? 200 : 100,
+  color: _lado ? Colors.red : Colors.green,
   duration: Duration(seconds: 1),
   curve: Curves.easeInOutQuint,
 ),
