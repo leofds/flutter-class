@@ -25,6 +25,8 @@ Estes Widgets automaticamente animam as alterações em suas propiedades. Quando
 
 Este são os **Implicity Animation Widgtes**, a maneira mais simples de adicionar animação sem complexidade.
 
+### Comtrolando a animação
+
 Estes Widgets animados possuem duas propriedades que precisamos definir para controlar o comportamento da animação, **duration** e **curve**.
 
 ```dart
@@ -36,11 +38,11 @@ AnimatedContainer(
 ),
 ```
 
-### Duration
+**Duration**
 
 Duração é o tempo que o Widget levará para interpolar o valor antido para o novo.
 
-### Curve
+**Curve**
 
 Curva permite controlar a forma como o Widget interpola do valor antigo para o novo. A curva controla a taxa de mudança no tempo que foi definido em **duration**.
 
