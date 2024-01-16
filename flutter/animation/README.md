@@ -4,7 +4,7 @@
 
 Existem diferentes abordagens para criar animações em Flutter.
 
-## 1. Implicity Animations (animações básicas)
+## 1. Implicit Animations (animações básicas)
 
 Flutter possui vário Widgets que versões animadas de Widgets comuns.
 
@@ -23,7 +23,7 @@ Flutter possui vário Widgets que versões animadas de Widgets comuns.
 
 Estes Widgets automaticamente animam as alterações em suas propiedades. Quando você reconstroi um Widget com um novo valor em sua propriedade, como por exemplo chamando o setState de um Statefull Widget, o Widget manupula a animação de transição da propriedade alterada.
 
-Este são os **Implicity Animation Widgtes**, a maneira mais simples de adicionar animação sem complexidade.
+Este são os **Implicit Animation Widgtes**, a maneira mais simples de adicionar animação sem complexidade.
 
 ### Controlando a animação
 
@@ -76,7 +76,7 @@ class SineCurve extends Curve {
 
 ## 2. TweenAnimationBuilder (Customizando Implicit Animations)
 
-Se você deseja criar animações básicas mas nenhuma das Implicity Animations bult-in é o que você procura, você pode utilizar o TweenAnimationBuilder para criar a animação com Widgets que não são animados.
+Se você deseja criar animações básicas mas nenhuma das Implicit Animations bult-in é o que você procura, você pode utilizar o TweenAnimationBuilder para criar a animação com Widgets que não são animados.
 
 ```dart
 TweenAnimationBuilder(
@@ -100,6 +100,10 @@ tween: ColorTween(begin: Colors.white, end: Colors.blue),
 O parâmetro `builder` permite especificar a função que gerará um Widget em um momento do tempo.
 
 ## 3. Built-in explicit animations
+
+Implicit Animations e TweenAnimationBuilder são animações que vão em uma direção, "interpolando-se" do início ao fim. Com eles o Flutter assume o controle.
+
+Explicit Animations são Widgets que herdan AnimatedWidget como: `ScaleTransition`, `DecoratedBoxTransition`, `SizeTransition`, `PositionedTransition` e mais.
 
 ## 4. AnimatedBuilder/AnimatedWidget
 
