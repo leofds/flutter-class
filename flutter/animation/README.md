@@ -39,6 +39,16 @@ AnimatedContainer(
 ),
 ```
 
+```dart
+bool _lado = true;
+
+onclick(){
+  setState((){
+    _lado = !_lado;
+  });
+}
+```
+
 **Duration**
 
 Duração é o tempo que o Widget levará para interpolar o valor antido para o novo.
@@ -65,6 +75,8 @@ class SineCurve extends Curve {
 ```
 
 ## 2. TweenAnimationBuilder (Customizando Implicit Animations)
+
+Se você deseja criar animações básicas mas não há nenhuma das Implicity Animations bult-in é o que você procura, você pode utilizar o TweenAnimationBuilder para criar a animação com Widgets que não são animados.
 
 ## 3. Built-in explicit animations
 
