@@ -101,7 +101,7 @@ tween: Tween<AlignmentGeometry>(begin: Alignment.bottomCenter, end: Alignment.to
 
 O parâmetro `builder` permite especificar a função que gerará um Widget em um momento do tempo.
 
-## 3. Built-in explicit animations
+## 3. Built-in Explicit Animations
 
 Implicit Animations e TweenAnimationBuilder são animações que vão em uma direção, "interpolando-se" do início ao fim. Com eles o Flutter assume o controle.
 
@@ -154,6 +154,42 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
 ```
 
 ## 4. AnimatedBuilder/AnimatedWidget
+
+Criando explicit animations do zero. 
+
+Assim como os **Built-in Explicit Animations** estes também requerem um `AnimationController` e o Mixin `SingleTickerProviderStateMixin`.
+
+**AnimatedBuilder** é utilizado para desenhar novas versões das animações frame a frame. 
+
+```dart
+AnimatedBuilder(
+  animation: _controller,
+  builder: (_, __) {
+    return Widget(
+      // use a propriedade _controller.value
+    );
+  }
+)
+```
+
+**AnimatedWidget** é utilizado quando queremos separar o `AnimatedBuilder` em um novo Widget. 
+
+```dart
+class FooTransition extends AnimatedWidget {
+  FooTransition({
+    Key? key,
+    required Animation<double> animation,
+  }) : super(key: key, listenable: animation);
+
+@override
+  Widget build(BuildContext context) {
+    final Animation<double> animation = listenable as Animation<double>;
+    return Widget(
+      // use a propriedade animation.value
+    );
+  }
+}
+```
 
 ## 5. Bare Metal Explicit Animations
 
