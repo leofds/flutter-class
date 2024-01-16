@@ -4,7 +4,7 @@
 
 Existem diferentes abordagens para criar animações em Flutter.
 
-## Implicity Animations (animações básicas)
+## 1. Implicity Animations (animações básicas)
 
 Flutter possui vário Widgets que versões animadas de Widgets comuns.
 
@@ -61,11 +61,11 @@ class SineCurve extends Curve {
 }
 ```
 
-## TweenAnimationBuilder (Customizando Implicit Animations)
+## 2. TweenAnimationBuilder (Customizando Implicit Animations)
 
-## Built-in explicit animations
+## 3. Built-in explicit animations
 
-## AnimatedBuilder/AnimatedWidget
+## 4. AnimatedBuilder/AnimatedWidget
 
-## Bare Metal Explicit Animations
+## 5. Bare Metal Explicit Animations
 
