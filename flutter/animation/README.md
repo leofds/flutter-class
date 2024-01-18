@@ -56,7 +56,7 @@ onclick(){
 
 **Duration**
 
-Duração é o tempo que o Widget levará para interpolar o valor antido para o novo.
+Duração é o tempo que o Widget levará para interpolar o valor antigo para o novo.
 
 **Curve**
 
