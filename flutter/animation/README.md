@@ -10,6 +10,10 @@ Existem diferentes abordagens para criar animações em Flutter.
 - [3. Built-in Explicit Animations](#3-built-in-explicit-animations)
 - [4. AnimatedBuilder/AnimatedWidget](#4-animatedbuilderanimatedwidget)
 
+Outras animações
+
+- [Hero](#hero)
+
 ## 1. Implicit Animations (animações básicas)
 
 Flutter possui vários Widgets que são versões animadas de Widgets comuns.
@@ -196,4 +200,10 @@ class FooTransition extends AnimatedWidget {
   }
 }
 ```
+
+# Hero
+
+Hero animation é um Widget que voa de uma tela para a outra. [docs](https://docs.flutter.dev/ui/animations/hero-animations)
+
+
 
