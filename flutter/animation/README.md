@@ -205,5 +205,22 @@ class FooTransition extends AnimatedWidget {
 
 Hero animation é um Widget que voa de uma tela para a outra. [docs](https://docs.flutter.dev/ui/animations/hero-animations)
 
+Basta utilizar o Widget Hero especificando um valor como tag e o filho. Em ambas as telas o Widget Hero precisa ter a mesma tag para a animação ocorrer.
+
+**Tela 1**
+```dart
+Hero(
+  tag: "tag1",
+  child: Image.asset('assets/images/carro.png',width: 200, height: 100, fit: BoxFit.cover),
+)
+```
+
+**Tela 2**
+```dart
+Hero(
+  tag: "tag1",
+  child: Image.asset('assets/images/carro.png'),
+)
+```
 
 
